@@ -1,18 +1,189 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=91 format=2]
 
-[ext_resource path="res://assets/player.png" type="Texture" id=1]
+[ext_resource path="res://assets/player/Male_4_Run1.png" type="Texture" id=1]
+[ext_resource path="res://assets/player/Male_0_Run6.png" type="Texture" id=2]
+[ext_resource path="res://assets/player/Male_0_Run9.png" type="Texture" id=3]
+[ext_resource path="res://assets/player/Male_0_Run4.png" type="Texture" id=4]
+[ext_resource path="res://assets/player/Male_0_Run3.png" type="Texture" id=5]
+[ext_resource path="res://assets/player/Male_0_Run7.png" type="Texture" id=6]
+[ext_resource path="res://assets/player/Male_0_Run1.png" type="Texture" id=7]
+[ext_resource path="res://assets/player/Male_0_Run8.png" type="Texture" id=8]
+[ext_resource path="res://assets/player/Male_0_Run0.png" type="Texture" id=9]
+[ext_resource path="res://assets/player/Male_0_Run2.png" type="Texture" id=10]
+[ext_resource path="res://assets/player/Male_0_Idle0.png" type="Texture" id=11]
+[ext_resource path="res://assets/player/Male_0_Run5.png" type="Texture" id=12]
+[ext_resource path="res://assets/player/Male_4_Run5.png" type="Texture" id=13]
+[ext_resource path="res://assets/player/Male_4_Run6.png" type="Texture" id=14]
+[ext_resource path="res://assets/player/Male_7_Run7.png" type="Texture" id=15]
+[ext_resource path="res://assets/player/Male_2_Run7.png" type="Texture" id=16]
+[ext_resource path="res://assets/player/Male_2_Run8.png" type="Texture" id=17]
+[ext_resource path="res://assets/player/Male_3_Run6.png" type="Texture" id=18]
+[ext_resource path="res://assets/player/Male_2_Run6.png" type="Texture" id=19]
+[ext_resource path="res://assets/player/Male_1_Run1.png" type="Texture" id=20]
+[ext_resource path="res://assets/player/Male_1_Run2.png" type="Texture" id=21]
+[ext_resource path="res://assets/player/Male_5_Run9.png" type="Texture" id=22]
+[ext_resource path="res://assets/player/Male_6_Run3.png" type="Texture" id=23]
+[ext_resource path="res://assets/player/Male_2_Run2.png" type="Texture" id=24]
+[ext_resource path="res://assets/player/Male_6_Run0.png" type="Texture" id=25]
+[ext_resource path="res://assets/player/Male_6_Run2.png" type="Texture" id=26]
+[ext_resource path="res://assets/player/Male_6_Run4.png" type="Texture" id=27]
+[ext_resource path="res://assets/player/Male_5_Run1.png" type="Texture" id=28]
+[ext_resource path="res://assets/player/Male_6_Run9.png" type="Texture" id=29]
+[ext_resource path="res://assets/player/Male_6_Run8.png" type="Texture" id=30]
+[ext_resource path="res://assets/player/Male_6_Run6.png" type="Texture" id=31]
+[ext_resource path="res://assets/player/Male_7_Run5.png" type="Texture" id=32]
+[ext_resource path="res://assets/player/Male_7_Run6.png" type="Texture" id=33]
+[ext_resource path="res://assets/player/Male_7_Run8.png" type="Texture" id=34]
+[ext_resource path="res://assets/player/Male_7_Run9.png" type="Texture" id=35]
+[ext_resource path="res://assets/player/Male_5_Run3.png" type="Texture" id=36]
+[ext_resource path="res://assets/player/Male_5_Run0.png" type="Texture" id=37]
+[ext_resource path="res://assets/player/Male_5_Run5.png" type="Texture" id=38]
+[ext_resource path="res://assets/player/Male_5_Run2.png" type="Texture" id=39]
+[ext_resource path="res://assets/player/Male_7_Run2.png" type="Texture" id=40]
+[ext_resource path="res://assets/player/Male_7_Run3.png" type="Texture" id=41]
+[ext_resource path="res://assets/player/Male_7_Run4.png" type="Texture" id=42]
+[ext_resource path="res://assets/player/Male_7_Run0.png" type="Texture" id=43]
+[ext_resource path="res://assets/player/Male_6_Run7.png" type="Texture" id=44]
+[ext_resource path="res://assets/player/Male_2_Run0.png" type="Texture" id=45]
+[ext_resource path="res://assets/player/Male_1_Run0.png" type="Texture" id=46]
+[ext_resource path="res://assets/player/Male_1_Run5.png" type="Texture" id=47]
+[ext_resource path="res://assets/player/Male_1_Run7.png" type="Texture" id=48]
+[ext_resource path="res://assets/player/Male_4_Run2.png" type="Texture" id=49]
+[ext_resource path="res://assets/player/Male_4_Run3.png" type="Texture" id=50]
+[ext_resource path="res://assets/player/Male_5_Run7.png" type="Texture" id=51]
+[ext_resource path="res://assets/player/Male_2_Run4.png" type="Texture" id=52]
+[ext_resource path="res://assets/player/Male_5_Run6.png" type="Texture" id=53]
+[ext_resource path="res://assets/player/Male_3_Run3.png" type="Texture" id=54]
+[ext_resource path="res://assets/player/Male_2_Run3.png" type="Texture" id=55]
+[ext_resource path="res://assets/player/Male_1_Run8.png" type="Texture" id=56]
+[ext_resource path="res://assets/player/Male_5_Run4.png" type="Texture" id=57]
+[ext_resource path="res://assets/player/Male_4_Run8.png" type="Texture" id=58]
+[ext_resource path="res://assets/player/Male_5_Run8.png" type="Texture" id=59]
+[ext_resource path="res://assets/player/Male_2_Run5.png" type="Texture" id=60]
+[ext_resource path="res://assets/player/Male_2_Run9.png" type="Texture" id=61]
+[ext_resource path="res://assets/player/Male_6_Run1.png" type="Texture" id=62]
+[ext_resource path="res://assets/player/Male_3_Run8.png" type="Texture" id=63]
+[ext_resource path="res://assets/player/Male_4_Run0.png" type="Texture" id=64]
+[ext_resource path="res://assets/player/Male_3_Run7.png" type="Texture" id=65]
+[ext_resource path="res://assets/player/Male_3_Run9.png" type="Texture" id=66]
+[ext_resource path="res://assets/player/Male_3_Run4.png" type="Texture" id=67]
+[ext_resource path="res://assets/player/Male_7_Run1.png" type="Texture" id=68]
+[ext_resource path="res://assets/player/Male_2_Run1.png" type="Texture" id=69]
+[ext_resource path="res://assets/player/Male_1_Run3.png" type="Texture" id=70]
+[ext_resource path="res://assets/player/Male_1_Run6.png" type="Texture" id=71]
+[ext_resource path="res://assets/player/Male_6_Run5.png" type="Texture" id=72]
+[ext_resource path="res://assets/player/Male_3_Run0.png" type="Texture" id=73]
+[ext_resource path="res://assets/player/Male_3_Run1.png" type="Texture" id=74]
+[ext_resource path="res://assets/player/Male_3_Run2.png" type="Texture" id=75]
+[ext_resource path="res://assets/player/Male_3_Run5.png" type="Texture" id=76]
+[ext_resource path="res://assets/player/Male_1_Run4.png" type="Texture" id=77]
+[ext_resource path="res://assets/player/Male_1_Run9.png" type="Texture" id=78]
+[ext_resource path="res://assets/player/Male_4_Run4.png" type="Texture" id=79]
+[ext_resource path="res://assets/player/Male_4_Run7.png" type="Texture" id=80]
+[ext_resource path="res://assets/player/Male_4_Run9.png" type="Texture" id=81]
+[ext_resource path="res://assets/player/Male_2_Idle0.png" type="Texture" id=82]
+[ext_resource path="res://assets/player/Male_1_Idle0.png" type="Texture" id=83]
+[ext_resource path="res://assets/player/Male_3_Idle0.png" type="Texture" id=84]
+[ext_resource path="res://assets/player/Male_7_Idle0.png" type="Texture" id=85]
+[ext_resource path="res://assets/player/Male_5_Idle0.png" type="Texture" id=86]
+[ext_resource path="res://assets/player/Male_4_Idle0.png" type="Texture" id=87]
+[ext_resource path="res://assets/player/Male_6_Idle0.png" type="Texture" id=88]
+[ext_resource path="res://Player.gd" type="Script" id=89]
 
-[sub_resource type="CapsuleShape2D" id=1]
-radius = 34.0
-height = 132.0
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 25 ), ExtResource( 62 ), ExtResource( 26 ), ExtResource( 23 ), ExtResource( 27 ), ExtResource( 72 ), ExtResource( 31 ), ExtResource( 44 ), ExtResource( 30 ), ExtResource( 29 ) ],
+"loop": true,
+"name": "run_nw",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 43 ), ExtResource( 68 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 15 ), ExtResource( 34 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "run_n",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 85 ) ],
+"loop": true,
+"name": "idle_n",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 86 ) ],
+"loop": true,
+"name": "idle_w",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 87 ) ],
+"loop": true,
+"name": "idle_sw",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 37 ), ExtResource( 28 ), ExtResource( 39 ), ExtResource( 36 ), ExtResource( 57 ), ExtResource( 38 ), ExtResource( 53 ), ExtResource( 51 ), ExtResource( 59 ), ExtResource( 22 ) ],
+"loop": true,
+"name": "run_w",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 73 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 54 ), ExtResource( 67 ), ExtResource( 76 ), ExtResource( 18 ), ExtResource( 65 ), ExtResource( 63 ), ExtResource( 66 ) ],
+"loop": true,
+"name": "run_s",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 46 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 70 ), ExtResource( 77 ), ExtResource( 47 ), ExtResource( 71 ), ExtResource( 48 ), ExtResource( 56 ), ExtResource( 78 ) ],
+"loop": true,
+"name": "run_e",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 82 ) ],
+"loop": true,
+"name": "idle_se",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 7 ), ExtResource( 10 ), ExtResource( 5 ), ExtResource( 4 ), ExtResource( 12 ), ExtResource( 2 ), ExtResource( 6 ), ExtResource( 8 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "run_ne",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 11 ) ],
+"loop": true,
+"name": "idle_ne",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 45 ), ExtResource( 69 ), ExtResource( 24 ), ExtResource( 55 ), ExtResource( 52 ), ExtResource( 60 ), ExtResource( 19 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 61 ) ],
+"loop": true,
+"name": "run_se",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 1 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 79 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 80 ), ExtResource( 58 ), ExtResource( 81 ) ],
+"loop": true,
+"name": "run_sw",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 83 ) ],
+"loop": true,
+"name": "idle_e",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 88 ) ],
+"loop": true,
+"name": "idle_nw",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 84 ) ],
+"loop": true,
+"name": "idle_s",
+"speed": 13.0
+} ]
 
-[node name="Player" type="Node2D"]
+[node name="Player" type="KinematicBody2D"]
+script = ExtResource( 89 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -2, -64 )
-shape = SubResource( 1 )
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -2, -186 )
+frames = SubResource( 2 )
+animation = "idle_s"
+playing = true
 
-[node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 0, -70 )
-scale = Vector2( 0.205078, 0.205078 )
-texture = ExtResource( 1 )
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( -34, -18, -34, 4, -15, 17, 11, 17, 27, 7, 28, -17, 13, -30, -16, -30 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
