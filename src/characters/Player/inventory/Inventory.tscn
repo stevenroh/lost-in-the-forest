@@ -13,18 +13,20 @@ region_rect = Rect2( 0, 0, 100, 100 )
 script = ExtResource( 4 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
-margin_left = 238.0
-margin_top = 33.0
-margin_right = 1031.0
-margin_bottom = 484.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_right = 793.0
+margin_bottom = 451.0
 texture = ExtResource( 1 )
 stretch_mode = 1
 
 [node name="GridContainer" type="GridContainer" parent="."]
-margin_left = 625.0
-margin_top = 142.0
-margin_right = 964.0
-margin_bottom = 410.0
+margin_left = 381.0
+margin_top = 106.0
+margin_right = 717.0
+margin_bottom = 374.0
 custom_constants/vseparation = 4
 custom_constants/hseparation = 4
 columns = 5

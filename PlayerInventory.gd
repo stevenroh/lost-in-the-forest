@@ -1,13 +1,23 @@
 extends Node
 
+signal active_item_updated
+
 const SlotClass = preload("res://src/characters/Player/inventory/Slot.gd")
 const ItemClass = preload("res://src/characters/Player/inventory/Item.gd")
-const TOTAL_INVENTORY_SLOT = 20
+const TOTAL_INVENTORY_SLOTS = 20
+const TOTAL_ACTIONBAR_SLOTS = 8
+
 
 var inventory = {
 	0:["wood", 98],
 	1:["wood", 98]
 }
+
+var actionBar = {
+	0:["axe", 1],
+}
+
+var current_item_slot = 0
 
 func remove_item(slot):
 	inventory.erase(slot.slot_index)
@@ -29,7 +39,7 @@ func add_item(name, quantity):
 				inventory[item][1] += can_be_added
 				update_slot_visual(item, inventory[item][0], inventory[item][1])
 				quantity -= can_be_added
-	for i in range(TOTAL_INVENTORY_SLOT):
+	for i in range(TOTAL_INVENTORY_SLOTS):
 		if !inventory.has(i):
 			inventory[i] = [name, quantity]
 			update_slot_visual(i, inventory[i][0], inventory[i][1])
@@ -38,10 +48,16 @@ func add_item(name, quantity):
 func add_item_to_empty_slot(item: ItemClass, slot: SlotClass):
 	inventory[slot.slot_index] = [item.item_name, item.item_quantity]
 
-
 func update_slot_visual(slot_index, item_name, quantity):
 	var slot = get_tree().root.get_node("/root/Main/UserInterface/Inventory/GridContainer/Slot" + str(slot_index + 1))
 	if slot.item != null:
 		slot.item.set_item(item_name, quantity)
 	else:
 		slot.initialize_item(item_name, quantity)
+
+func active_item_scroll(direction):
+	if direction == "up":
+		current_item_slot = (current_item_slot + 1) % TOTAL_ACTIONBAR_SLOTS
+	elif direction == "down":
+		current_item_slot = (current_item_slot - 1) % TOTAL_ACTIONBAR_SLOTS
+	emit_signal("active_item_updated")

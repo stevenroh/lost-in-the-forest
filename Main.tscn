@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://tilemaps/isometric-roads.tres" type="TileSet" id=1]
 [ext_resource path="res://tilemaps/survival-kit.tres" type="TileSet" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://src/objects/Lootable.tscn" type="PackedScene" id=4]
 [ext_resource path="res://UserInterface.gd" type="Script" id=5]
 [ext_resource path="res://src/characters/Player/inventory/Inventory.tscn" type="PackedScene" id=6]
+[ext_resource path="res://src/scenes/ActionBar.tscn" type="PackedScene" id=7]
 
 [node name="Main" type="Node2D"]
 
@@ -43,4 +44,7 @@ collision_mask = 4
 script = ExtResource( 5 )
 
 [node name="Inventory" parent="UserInterface" instance=ExtResource( 6 )]
-visible = false
+position = Vector2( 1084, 355 )
+
+[node name="ActionBar" parent="UserInterface" instance=ExtResource( 7 )]
+position = Vector2( 805, 1024 )
