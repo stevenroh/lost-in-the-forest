@@ -1,4 +1,4 @@
-[gd_resource type="TileSet" load_steps=133 format=2]
+[gd_resource type="TileSet" load_steps=136 format=2]
 
 [ext_resource path="res://assets/survival-kit/floor_S.png" type="Texture" id=1]
 [ext_resource path="res://assets/survival-kit/workbenchGrind_W.png" type="Texture" id=2]
@@ -132,6 +132,15 @@
 [ext_resource path="res://assets/survival-kit/bedroll_E.png" type="Texture" id=130]
 [ext_resource path="res://assets/survival-kit/fence_E.png" type="Texture" id=131]
 [ext_resource path="res://assets/survival-kit/bedrollPacked_E.png" type="Texture" id=132]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( 226, 178, 285, 183, 307, 243, 306, 265, 268, 286, 276, 320, 253, 329, 233, 318, 244, 277, 218, 277, 201, 256 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 17, 55, 104, 63, 128, 128, 64, 160, 0, 128 )
+
+[sub_resource type="ConvexPolygonShape2D" id=3]
+points = PoolVector2Array( 40, 110.25, 155, 109.25, 182, 125.25, 209, 186.25, 173, 235.25, 14, 207.25, 6, 165.25 )
 
 [resource]
 0/name = "BedrollFrameE"
@@ -306,15 +315,22 @@
 12/texture = ExtResource( 96 )
 12/tex_offset = Vector2( 0, 0 )
 12/modulate = Color( 1, 1, 1, 1 )
-12/region = Rect2( 0, 0, 512, 512 )
+12/region = Rect2( 192, 192, 128, 160 )
 12/tile_mode = 0
 12/occluder_offset = Vector2( 256, 256 )
 12/navigation_offset = Vector2( 256, 256 )
 12/shape_offset = Vector2( 0, 0 )
 12/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+12/shape = SubResource( 2 )
 12/shape_one_way = false
-12/shape_one_way_margin = 0.0
-12/shapes = [  ]
+12/shape_one_way_margin = 1.0
+12/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 12/z_index = 0
 13/name = "CampfireN"
 13/texture = ExtResource( 129 )
@@ -810,15 +826,22 @@
 48/texture = ExtResource( 55 )
 48/tex_offset = Vector2( 0, 0 )
 48/modulate = Color( 1, 1, 1, 1 )
-48/region = Rect2( 0, 0, 512, 512 )
+48/region = Rect2( 160, 128, 224, 256 )
 48/tile_mode = 0
 48/occluder_offset = Vector2( 256, 256 )
 48/navigation_offset = Vector2( 256, 256 )
 48/shape_offset = Vector2( 0, 0 )
 48/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+48/shape = SubResource( 3 )
 48/shape_one_way = false
-48/shape_one_way_margin = 0.0
-48/shapes = [  ]
+48/shape_one_way_margin = 1.0
+48/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 3 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 48/z_index = 0
 49/name = "RockAN"
 49/texture = ExtResource( 5 )
@@ -1768,9 +1791,16 @@
 116/navigation_offset = Vector2( 256, 256 )
 116/shape_offset = Vector2( 0, 0 )
 116/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+116/shape = SubResource( 1 )
 116/shape_one_way = false
-116/shape_one_way_margin = 0.0
-116/shapes = [  ]
+116/shape_one_way_margin = 1.0
+116/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 0, 0 )
+} ]
 116/z_index = 0
 117/name = "TreeN"
 117/texture = ExtResource( 122 )
