@@ -1,177 +1,177 @@
 [gd_resource type="TileSet" load_steps=169 format=2]
 
-[ext_resource path="res://assets/player/Male_3_Run4.png" type="Texture" id=1]
-[ext_resource path="res://assets/player/Male_3_Run5.png" type="Texture" id=2]
-[ext_resource path="res://assets/player/Male_3_Run6.png" type="Texture" id=3]
-[ext_resource path="res://assets/player/Male_3_Run7.png" type="Texture" id=4]
-[ext_resource path="res://assets/player/Male_3_Run2.png" type="Texture" id=5]
-[ext_resource path="res://assets/player/Male_3_Run3.png" type="Texture" id=6]
-[ext_resource path="res://assets/player/Male_3_Pickup1.png" type="Texture" id=7]
-[ext_resource path="res://assets/player/Male_2_Run4.png" type="Texture" id=8]
-[ext_resource path="res://assets/player/Male_2_Run5.png" type="Texture" id=9]
-[ext_resource path="res://assets/player/Male_2_Run6.png" type="Texture" id=10]
-[ext_resource path="res://assets/player/Male_2_Run7.png" type="Texture" id=11]
-[ext_resource path="res://assets/player/Male_2_Run8.png" type="Texture" id=12]
-[ext_resource path="res://assets/player/Male_2_Run9.png" type="Texture" id=13]
-[ext_resource path="res://assets/player/Male_3_Idle0.png" type="Texture" id=14]
-[ext_resource path="res://assets/player/Male_3_Pickup0.png" type="Texture" id=15]
-[ext_resource path="res://assets/player/Male_0_Pickup4.png" type="Texture" id=16]
-[ext_resource path="res://assets/player/Male_6_Pickup6.png" type="Texture" id=17]
-[ext_resource path="res://assets/player/Male_6_Run7.png" type="Texture" id=18]
-[ext_resource path="res://assets/player/Male_1_Pickup7.png" type="Texture" id=19]
-[ext_resource path="res://assets/player/Male_3_Run8.png" type="Texture" id=20]
-[ext_resource path="res://assets/player/Male_3_Run9.png" type="Texture" id=21]
-[ext_resource path="res://assets/player/Male_7_Run3.png" type="Texture" id=22]
-[ext_resource path="res://assets/player/Male_4_Idle0.png" type="Texture" id=23]
-[ext_resource path="res://assets/player/Male_3_Pickup4.png" type="Texture" id=24]
-[ext_resource path="res://assets/player/Male_1_Pickup9.png" type="Texture" id=25]
-[ext_resource path="res://assets/player/Male_1_Run0.png" type="Texture" id=26]
-[ext_resource path="res://assets/player/Male_1_Run1.png" type="Texture" id=27]
-[ext_resource path="res://assets/player/Male_1_Run7.png" type="Texture" id=28]
-[ext_resource path="res://assets/player/Male_2_Pickup3.png" type="Texture" id=29]
-[ext_resource path="res://assets/player/Male_2_Pickup5.png" type="Texture" id=30]
-[ext_resource path="res://assets/player/Male_2_Pickup7.png" type="Texture" id=31]
-[ext_resource path="res://assets/player/Male_2_Pickup8.png" type="Texture" id=32]
-[ext_resource path="res://assets/player/Male_3_Pickup2.png" type="Texture" id=33]
-[ext_resource path="res://assets/player/Male_3_Pickup3.png" type="Texture" id=34]
-[ext_resource path="res://assets/player/Male_2_Pickup4.png" type="Texture" id=35]
-[ext_resource path="res://assets/player/Male_4_Run7.png" type="Texture" id=36]
-[ext_resource path="res://assets/player/Male_4_Run8.png" type="Texture" id=37]
-[ext_resource path="res://assets/player/Male_4_Run9.png" type="Texture" id=38]
-[ext_resource path="res://assets/player/Male_4_Run4.png" type="Texture" id=39]
-[ext_resource path="res://assets/player/Male_4_Run5.png" type="Texture" id=40]
-[ext_resource path="res://assets/player/Male_4_Run6.png" type="Texture" id=41]
-[ext_resource path="res://assets/player/Male_4_Run0.png" type="Texture" id=42]
-[ext_resource path="res://assets/player/Male_4_Run1.png" type="Texture" id=43]
-[ext_resource path="res://assets/player/Male_4_Run2.png" type="Texture" id=44]
-[ext_resource path="res://assets/player/Male_4_Run3.png" type="Texture" id=45]
-[ext_resource path="res://assets/player/Male_0_Pickup2.png" type="Texture" id=46]
-[ext_resource path="res://assets/player/Male_0_Pickup5.png" type="Texture" id=47]
-[ext_resource path="res://assets/player/Male_0_Pickup6.png" type="Texture" id=48]
-[ext_resource path="res://assets/player/Male_1_Pickup8.png" type="Texture" id=49]
-[ext_resource path="res://assets/player/Male_5_Pickup0.png" type="Texture" id=50]
-[ext_resource path="res://assets/player/Male_5_Pickup1.png" type="Texture" id=51]
-[ext_resource path="res://assets/player/Male_3_Run1.png" type="Texture" id=52]
-[ext_resource path="res://assets/player/Male_4_Pickup0.png" type="Texture" id=53]
-[ext_resource path="res://assets/player/Male_4_Pickup9.png" type="Texture" id=54]
-[ext_resource path="res://assets/player/Male_5_Idle0.png" type="Texture" id=55]
-[ext_resource path="res://assets/player/Male_5_Pickup2.png" type="Texture" id=56]
-[ext_resource path="res://assets/player/Male_5_Pickup3.png" type="Texture" id=57]
-[ext_resource path="res://assets/player/Male_5_Pickup4.png" type="Texture" id=58]
-[ext_resource path="res://assets/player/Male_5_Pickup5.png" type="Texture" id=59]
-[ext_resource path="res://assets/player/Male_5_Pickup6.png" type="Texture" id=60]
-[ext_resource path="res://assets/player/Male_5_Pickup7.png" type="Texture" id=61]
-[ext_resource path="res://assets/player/Male_5_Pickup8.png" type="Texture" id=62]
-[ext_resource path="res://assets/player/Male_5_Pickup9.png" type="Texture" id=63]
-[ext_resource path="res://assets/player/Male_5_Run0.png" type="Texture" id=64]
-[ext_resource path="res://assets/player/Male_5_Run1.png" type="Texture" id=65]
-[ext_resource path="res://assets/player/Male_5_Run2.png" type="Texture" id=66]
-[ext_resource path="res://assets/player/Male_5_Run3.png" type="Texture" id=67]
-[ext_resource path="res://assets/player/Male_5_Run4.png" type="Texture" id=68]
-[ext_resource path="res://assets/player/Male_5_Run5.png" type="Texture" id=69]
-[ext_resource path="res://assets/player/Male_5_Run6.png" type="Texture" id=70]
-[ext_resource path="res://assets/player/Male_5_Run7.png" type="Texture" id=71]
-[ext_resource path="res://assets/player/Male_5_Run8.png" type="Texture" id=72]
-[ext_resource path="res://assets/player/Male_5_Run9.png" type="Texture" id=73]
-[ext_resource path="res://assets/player/Male_6_Pickup7.png" type="Texture" id=74]
-[ext_resource path="res://assets/player/Male_6_Pickup8.png" type="Texture" id=75]
-[ext_resource path="res://assets/player/Male_6_Pickup9.png" type="Texture" id=76]
-[ext_resource path="res://assets/player/Male_6_Run0.png" type="Texture" id=77]
-[ext_resource path="res://assets/player/Male_6_Run1.png" type="Texture" id=78]
-[ext_resource path="res://assets/player/Male_6_Run2.png" type="Texture" id=79]
-[ext_resource path="res://assets/player/Male_6_Run3.png" type="Texture" id=80]
-[ext_resource path="res://assets/player/Male_6_Run4.png" type="Texture" id=81]
-[ext_resource path="res://assets/player/Male_6_Run5.png" type="Texture" id=82]
-[ext_resource path="res://assets/player/Male_6_Run6.png" type="Texture" id=83]
-[ext_resource path="res://assets/player/Male_6_Run8.png" type="Texture" id=84]
-[ext_resource path="res://assets/player/Male_6_Run9.png" type="Texture" id=85]
-[ext_resource path="res://assets/player/Male_7_Idle0.png" type="Texture" id=86]
-[ext_resource path="res://assets/player/Male_7_Pickup0.png" type="Texture" id=87]
-[ext_resource path="res://assets/player/Male_7_Pickup1.png" type="Texture" id=88]
-[ext_resource path="res://assets/player/Male_7_Pickup2.png" type="Texture" id=89]
-[ext_resource path="res://assets/player/Male_7_Pickup3.png" type="Texture" id=90]
-[ext_resource path="res://assets/player/Male_7_Pickup4.png" type="Texture" id=91]
-[ext_resource path="res://assets/player/Male_7_Pickup5.png" type="Texture" id=92]
-[ext_resource path="res://assets/player/Male_7_Pickup6.png" type="Texture" id=93]
-[ext_resource path="res://assets/player/Male_7_Pickup7.png" type="Texture" id=94]
-[ext_resource path="res://assets/player/Male_7_Pickup8.png" type="Texture" id=95]
-[ext_resource path="res://assets/player/Male_7_Pickup9.png" type="Texture" id=96]
-[ext_resource path="res://assets/player/Male_7_Run0.png" type="Texture" id=97]
-[ext_resource path="res://assets/player/Male_7_Run1.png" type="Texture" id=98]
-[ext_resource path="res://assets/player/Male_7_Run2.png" type="Texture" id=99]
-[ext_resource path="res://assets/player/Male_4_Pickup5.png" type="Texture" id=100]
-[ext_resource path="res://assets/player/Male_4_Pickup6.png" type="Texture" id=101]
-[ext_resource path="res://assets/player/Male_4_Pickup7.png" type="Texture" id=102]
-[ext_resource path="res://assets/player/Male_4_Pickup8.png" type="Texture" id=103]
-[ext_resource path="res://assets/player/Male_7_Run4.png" type="Texture" id=104]
-[ext_resource path="res://assets/player/Male_7_Run5.png" type="Texture" id=105]
-[ext_resource path="res://assets/player/Male_7_Run6.png" type="Texture" id=106]
-[ext_resource path="res://assets/player/Male_7_Run7.png" type="Texture" id=107]
-[ext_resource path="res://assets/player/Male_7_Run8.png" type="Texture" id=108]
-[ext_resource path="res://assets/player/Male_7_Run9.png" type="Texture" id=109]
-[ext_resource path="res://assets/player/Male_1_Pickup4.png" type="Texture" id=110]
-[ext_resource path="res://assets/player/Male_1_Pickup5.png" type="Texture" id=111]
-[ext_resource path="res://assets/player/Male_2_Pickup2.png" type="Texture" id=112]
-[ext_resource path="res://assets/player/Male_2_Pickup9.png" type="Texture" id=113]
-[ext_resource path="res://assets/player/Male_2_Run0.png" type="Texture" id=114]
-[ext_resource path="res://assets/player/Male_2_Run1.png" type="Texture" id=115]
-[ext_resource path="res://assets/player/Male_2_Run2.png" type="Texture" id=116]
-[ext_resource path="res://assets/player/Male_3_Pickup5.png" type="Texture" id=117]
-[ext_resource path="res://assets/player/Male_3_Pickup6.png" type="Texture" id=118]
-[ext_resource path="res://assets/player/Male_3_Pickup7.png" type="Texture" id=119]
-[ext_resource path="res://assets/player/Male_3_Pickup8.png" type="Texture" id=120]
-[ext_resource path="res://assets/player/Male_3_Pickup9.png" type="Texture" id=121]
-[ext_resource path="res://assets/player/Male_3_Run0.png" type="Texture" id=122]
-[ext_resource path="res://assets/player/Male_4_Pickup1.png" type="Texture" id=123]
-[ext_resource path="res://assets/player/Male_4_Pickup2.png" type="Texture" id=124]
-[ext_resource path="res://assets/player/Male_4_Pickup3.png" type="Texture" id=125]
-[ext_resource path="res://assets/player/Male_4_Pickup4.png" type="Texture" id=126]
-[ext_resource path="res://assets/player/Male_0_Pickup3.png" type="Texture" id=127]
-[ext_resource path="res://assets/player/Male_1_Run5.png" type="Texture" id=128]
-[ext_resource path="res://assets/player/Male_2_Run3.png" type="Texture" id=129]
-[ext_resource path="res://assets/player/Male_0_Pickup1.png" type="Texture" id=130]
-[ext_resource path="res://assets/player/Male_0_Run7.png" type="Texture" id=131]
-[ext_resource path="res://assets/player/Male_1_Pickup2.png" type="Texture" id=132]
-[ext_resource path="res://assets/player/Male_1_Pickup3.png" type="Texture" id=133]
-[ext_resource path="res://assets/player/Male_0_Run9.png" type="Texture" id=134]
-[ext_resource path="res://assets/player/Male_0_Run0.png" type="Texture" id=135]
-[ext_resource path="res://assets/player/Male_0_Run1.png" type="Texture" id=136]
-[ext_resource path="res://assets/player/Male_0_Run6.png" type="Texture" id=137]
-[ext_resource path="res://assets/player/Male_0_Run2.png" type="Texture" id=138]
-[ext_resource path="res://assets/player/Male_0_Run4.png" type="Texture" id=139]
-[ext_resource path="res://assets/player/Male_1_Idle0.png" type="Texture" id=140]
-[ext_resource path="res://assets/player/Male_0_Pickup7.png" type="Texture" id=141]
-[ext_resource path="res://assets/player/Male_0_Run5.png" type="Texture" id=142]
-[ext_resource path="res://assets/player/Male_0_Pickup8.png" type="Texture" id=143]
-[ext_resource path="res://assets/player/Male_0_Run8.png" type="Texture" id=144]
-[ext_resource path="res://assets/player/Male_0_Run3.png" type="Texture" id=145]
-[ext_resource path="res://assets/player/Male_0_Pickup9.png" type="Texture" id=146]
-[ext_resource path="res://assets/player/Male_0_Pickup0.png" type="Texture" id=147]
-[ext_resource path="res://assets/player/Male_1_Pickup1.png" type="Texture" id=148]
-[ext_resource path="res://assets/player/Male_2_Pickup0.png" type="Texture" id=149]
-[ext_resource path="res://assets/player/Male_6_Pickup5.png" type="Texture" id=150]
-[ext_resource path="res://assets/player/Male_2_Pickup1.png" type="Texture" id=151]
-[ext_resource path="res://assets/player/Male_0_Idle0.png" type="Texture" id=152]
-[ext_resource path="res://assets/player/Male_6_Pickup0.png" type="Texture" id=153]
-[ext_resource path="res://assets/player/Male_6_Pickup1.png" type="Texture" id=154]
-[ext_resource path="res://assets/player/Male_6_Pickup2.png" type="Texture" id=155]
-[ext_resource path="res://assets/player/Male_6_Pickup3.png" type="Texture" id=156]
-[ext_resource path="res://assets/player/Male_6_Pickup4.png" type="Texture" id=157]
-[ext_resource path="res://assets/player/Male_1_Run9.png" type="Texture" id=158]
-[ext_resource path="res://assets/player/Male_2_Idle0.png" type="Texture" id=159]
-[ext_resource path="res://assets/player/Male_1_Run8.png" type="Texture" id=160]
-[ext_resource path="res://assets/player/Male_1_Run6.png" type="Texture" id=161]
-[ext_resource path="res://assets/player/Male_1_Pickup0.png" type="Texture" id=162]
-[ext_resource path="res://assets/player/Male_1_Pickup6.png" type="Texture" id=163]
-[ext_resource path="res://assets/player/Male_1_Run2.png" type="Texture" id=164]
-[ext_resource path="res://assets/player/Male_1_Run3.png" type="Texture" id=165]
-[ext_resource path="res://assets/player/Male_1_Run4.png" type="Texture" id=166]
-[ext_resource path="res://assets/player/Male_2_Pickup6.png" type="Texture" id=167]
-[ext_resource path="res://assets/player/Male_6_Idle0.png" type="Texture" id=168]
+[ext_resource path="res://assets/player/Male_4_Pickup3.png" type="Texture" id=1]
+[ext_resource path="res://assets/player/Male_0_Run8.png" type="Texture" id=2]
+[ext_resource path="res://assets/player/Male_0_Run4.png" type="Texture" id=3]
+[ext_resource path="res://assets/player/Male_4_Run5.png" type="Texture" id=4]
+[ext_resource path="res://assets/player/Male_0_Run7.png" type="Texture" id=5]
+[ext_resource path="res://assets/player/Male_2_Run8.png" type="Texture" id=6]
+[ext_resource path="res://assets/player/Male_1_Run2.png" type="Texture" id=7]
+[ext_resource path="res://assets/player/Male_5_Run9.png" type="Texture" id=8]
+[ext_resource path="res://assets/player/Male_4_Run6.png" type="Texture" id=9]
+[ext_resource path="res://assets/player/Male_7_Run7.png" type="Texture" id=10]
+[ext_resource path="res://assets/player/Male_2_Run2.png" type="Texture" id=11]
+[ext_resource path="res://assets/player/Male_4_Run1.png" type="Texture" id=12]
+[ext_resource path="res://assets/player/Male_0_Run6.png" type="Texture" id=13]
+[ext_resource path="res://assets/player/Male_0_Run0.png" type="Texture" id=14]
+[ext_resource path="res://assets/player/Male_0_Run2.png" type="Texture" id=15]
+[ext_resource path="res://assets/player/Male_2_Run7.png" type="Texture" id=16]
+[ext_resource path="res://assets/player/Male_6_Run3.png" type="Texture" id=17]
+[ext_resource path="res://assets/player/Male_6_Run0.png" type="Texture" id=18]
+[ext_resource path="res://assets/player/Male_6_Run2.png" type="Texture" id=19]
+[ext_resource path="res://assets/player/Male_6_Run4.png" type="Texture" id=20]
+[ext_resource path="res://assets/player/Male_3_Run6.png" type="Texture" id=21]
+[ext_resource path="res://assets/player/Male_0_Run9.png" type="Texture" id=22]
+[ext_resource path="res://assets/player/Male_0_Run1.png" type="Texture" id=23]
+[ext_resource path="res://assets/player/Male_0_Run3.png" type="Texture" id=24]
+[ext_resource path="res://assets/player/Male_0_Idle0.png" type="Texture" id=25]
+[ext_resource path="res://assets/player/Male_0_Run5.png" type="Texture" id=26]
+[ext_resource path="res://assets/player/Male_2_Run6.png" type="Texture" id=27]
+[ext_resource path="res://assets/player/Male_1_Run1.png" type="Texture" id=28]
+[ext_resource path="res://assets/player/Male_6_Run6.png" type="Texture" id=29]
+[ext_resource path="res://assets/player/Male_7_Run5.png" type="Texture" id=30]
+[ext_resource path="res://assets/player/Male_7_Run6.png" type="Texture" id=31]
+[ext_resource path="res://assets/player/Male_6_Run9.png" type="Texture" id=32]
+[ext_resource path="res://assets/player/Male_5_Run1.png" type="Texture" id=33]
+[ext_resource path="res://assets/player/Male_6_Run8.png" type="Texture" id=34]
+[ext_resource path="res://assets/player/Male_5_Run3.png" type="Texture" id=35]
+[ext_resource path="res://assets/player/Male_5_Run8.png" type="Texture" id=36]
+[ext_resource path="res://assets/player/Male_1_Run7.png" type="Texture" id=37]
+[ext_resource path="res://assets/player/Male_3_Run7.png" type="Texture" id=38]
+[ext_resource path="res://assets/player/Male_2_Run9.png" type="Texture" id=39]
+[ext_resource path="res://assets/player/Male_7_Run4.png" type="Texture" id=40]
+[ext_resource path="res://assets/player/Male_3_Run9.png" type="Texture" id=41]
+[ext_resource path="res://assets/player/Male_1_Run9.png" type="Texture" id=42]
+[ext_resource path="res://assets/player/Male_2_Idle0.png" type="Texture" id=43]
+[ext_resource path="res://assets/player/Male_1_Pickup4.png" type="Texture" id=44]
+[ext_resource path="res://assets/player/Male_2_Run3.png" type="Texture" id=45]
+[ext_resource path="res://assets/player/Male_6_Run7.png" type="Texture" id=46]
+[ext_resource path="res://assets/player/Male_6_Run5.png" type="Texture" id=47]
+[ext_resource path="res://assets/player/Male_2_Run0.png" type="Texture" id=48]
+[ext_resource path="res://assets/player/Male_7_Run8.png" type="Texture" id=49]
+[ext_resource path="res://assets/player/Male_2_Pickup9.png" type="Texture" id=50]
+[ext_resource path="res://assets/player/Male_4_Run4.png" type="Texture" id=51]
+[ext_resource path="res://assets/player/Male_1_Pickup5.png" type="Texture" id=52]
+[ext_resource path="res://assets/player/Male_2_Pickup2.png" type="Texture" id=53]
+[ext_resource path="res://assets/player/Male_4_Run7.png" type="Texture" id=54]
+[ext_resource path="res://assets/player/Male_5_Run7.png" type="Texture" id=55]
+[ext_resource path="res://assets/player/Male_7_Run9.png" type="Texture" id=56]
+[ext_resource path="res://assets/player/Male_3_Run2.png" type="Texture" id=57]
+[ext_resource path="res://assets/player/Male_4_Run9.png" type="Texture" id=58]
+[ext_resource path="res://assets/player/Male_4_Idle0.png" type="Texture" id=59]
+[ext_resource path="res://assets/player/Male_1_Idle0.png" type="Texture" id=60]
+[ext_resource path="res://assets/player/Male_6_Idle0.png" type="Texture" id=61]
+[ext_resource path="res://assets/player/Male_3_Pickup5.png" type="Texture" id=62]
+[ext_resource path="res://assets/player/Male_2_Run4.png" type="Texture" id=63]
+[ext_resource path="res://assets/player/Male_5_Run5.png" type="Texture" id=64]
+[ext_resource path="res://assets/player/Male_5_Run2.png" type="Texture" id=65]
+[ext_resource path="res://assets/player/Male_5_Run6.png" type="Texture" id=66]
+[ext_resource path="res://assets/player/Male_4_Run8.png" type="Texture" id=67]
+[ext_resource path="res://assets/player/Male_1_Run4.png" type="Texture" id=68]
+[ext_resource path="res://assets/player/Male_5_Run0.png" type="Texture" id=69]
+[ext_resource path="res://assets/player/Male_7_Run2.png" type="Texture" id=70]
+[ext_resource path="res://assets/player/Male_4_Run0.png" type="Texture" id=71]
+[ext_resource path="res://assets/player/Male_5_Run4.png" type="Texture" id=72]
+[ext_resource path="res://assets/player/Male_2_Run1.png" type="Texture" id=73]
+[ext_resource path="res://assets/player/Male_1_Run5.png" type="Texture" id=74]
+[ext_resource path="res://assets/player/Male_2_Run5.png" type="Texture" id=75]
+[ext_resource path="res://assets/player/Male_1_Run3.png" type="Texture" id=76]
+[ext_resource path="res://assets/player/Male_3_Run1.png" type="Texture" id=77]
+[ext_resource path="res://assets/player/Male_3_Run5.png" type="Texture" id=78]
+[ext_resource path="res://assets/player/Male_3_Idle0.png" type="Texture" id=79]
+[ext_resource path="res://assets/player/Male_7_Idle0.png" type="Texture" id=80]
+[ext_resource path="res://assets/player/Male_4_Run3.png" type="Texture" id=81]
+[ext_resource path="res://assets/player/Male_7_Run3.png" type="Texture" id=82]
+[ext_resource path="res://assets/player/Male_5_Idle0.png" type="Texture" id=83]
+[ext_resource path="res://assets/player/Male_7_Run0.png" type="Texture" id=84]
+[ext_resource path="res://assets/player/Male_1_Run8.png" type="Texture" id=85]
+[ext_resource path="res://assets/player/Male_7_Run1.png" type="Texture" id=86]
+[ext_resource path="res://assets/player/Male_4_Run2.png" type="Texture" id=87]
+[ext_resource path="res://assets/player/Male_3_Run3.png" type="Texture" id=88]
+[ext_resource path="res://assets/player/Male_6_Run1.png" type="Texture" id=89]
+[ext_resource path="res://assets/player/Male_3_Run8.png" type="Texture" id=90]
+[ext_resource path="res://assets/player/Male_1_Run0.png" type="Texture" id=91]
+[ext_resource path="res://assets/player/Male_3_Run4.png" type="Texture" id=92]
+[ext_resource path="res://assets/player/Male_1_Run6.png" type="Texture" id=93]
+[ext_resource path="res://assets/player/Male_3_Run0.png" type="Texture" id=94]
+[ext_resource path="res://assets/player/Male_3_Pickup8.png" type="Texture" id=95]
+[ext_resource path="res://assets/player/Male_4_Pickup1.png" type="Texture" id=96]
+[ext_resource path="res://assets/player/Male_4_Pickup2.png" type="Texture" id=97]
+[ext_resource path="res://assets/player/Male_3_Pickup6.png" type="Texture" id=98]
+[ext_resource path="res://assets/player/Male_3_Pickup7.png" type="Texture" id=99]
+[ext_resource path="res://assets/player/Male_3_Pickup9.png" type="Texture" id=100]
+[ext_resource path="res://assets/player/Male_0_Pickup6.png" type="Texture" id=101]
+[ext_resource path="res://assets/player/Male_5_Pickup5.png" type="Texture" id=102]
+[ext_resource path="res://assets/player/Male_0_Pickup5.png" type="Texture" id=103]
+[ext_resource path="res://assets/player/Male_5_Pickup9.png" type="Texture" id=104]
+[ext_resource path="res://assets/player/Male_2_Pickup7.png" type="Texture" id=105]
+[ext_resource path="res://assets/player/Male_7_Pickup7.png" type="Texture" id=106]
+[ext_resource path="res://assets/player/Male_3_Pickup0.png" type="Texture" id=107]
+[ext_resource path="res://assets/player/Male_6_Pickup6.png" type="Texture" id=108]
+[ext_resource path="res://assets/player/Male_3_Pickup4.png" type="Texture" id=109]
+[ext_resource path="res://assets/player/Male_1_Pickup9.png" type="Texture" id=110]
+[ext_resource path="res://assets/player/Male_5_Pickup0.png" type="Texture" id=111]
+[ext_resource path="res://assets/player/Male_5_Pickup8.png" type="Texture" id=112]
+[ext_resource path="res://assets/player/Male_5_Pickup1.png" type="Texture" id=113]
+[ext_resource path="res://assets/player/Male_2_Pickup8.png" type="Texture" id=114]
+[ext_resource path="res://assets/player/Male_7_Pickup0.png" type="Texture" id=115]
+[ext_resource path="res://assets/player/Male_7_Pickup4.png" type="Texture" id=116]
+[ext_resource path="res://assets/player/Male_3_Pickup1.png" type="Texture" id=117]
+[ext_resource path="res://assets/player/Male_7_Pickup5.png" type="Texture" id=118]
+[ext_resource path="res://assets/player/Male_3_Pickup3.png" type="Texture" id=119]
+[ext_resource path="res://assets/player/Male_0_Pickup4.png" type="Texture" id=120]
+[ext_resource path="res://assets/player/Male_1_Pickup7.png" type="Texture" id=121]
+[ext_resource path="res://assets/player/Male_2_Pickup5.png" type="Texture" id=122]
+[ext_resource path="res://assets/player/Male_2_Pickup4.png" type="Texture" id=123]
+[ext_resource path="res://assets/player/Male_0_Pickup2.png" type="Texture" id=124]
+[ext_resource path="res://assets/player/Male_4_Pickup0.png" type="Texture" id=125]
+[ext_resource path="res://assets/player/Male_4_Pickup9.png" type="Texture" id=126]
+[ext_resource path="res://assets/player/Male_1_Pickup8.png" type="Texture" id=127]
+[ext_resource path="res://assets/player/Male_5_Pickup2.png" type="Texture" id=128]
+[ext_resource path="res://assets/player/Male_5_Pickup3.png" type="Texture" id=129]
+[ext_resource path="res://assets/player/Male_5_Pickup4.png" type="Texture" id=130]
+[ext_resource path="res://assets/player/Male_6_Pickup7.png" type="Texture" id=131]
+[ext_resource path="res://assets/player/Male_6_Pickup8.png" type="Texture" id=132]
+[ext_resource path="res://assets/player/Male_6_Pickup9.png" type="Texture" id=133]
+[ext_resource path="res://assets/player/Male_7_Pickup2.png" type="Texture" id=134]
+[ext_resource path="res://assets/player/Male_5_Pickup6.png" type="Texture" id=135]
+[ext_resource path="res://assets/player/Male_7_Pickup1.png" type="Texture" id=136]
+[ext_resource path="res://assets/player/Male_7_Pickup3.png" type="Texture" id=137]
+[ext_resource path="res://assets/player/Male_2_Pickup3.png" type="Texture" id=138]
+[ext_resource path="res://assets/player/Male_3_Pickup2.png" type="Texture" id=139]
+[ext_resource path="res://assets/player/Male_7_Pickup6.png" type="Texture" id=140]
+[ext_resource path="res://assets/player/Male_5_Pickup7.png" type="Texture" id=141]
+[ext_resource path="res://assets/player/Male_4_Pickup7.png" type="Texture" id=142]
+[ext_resource path="res://assets/player/Male_4_Pickup8.png" type="Texture" id=143]
+[ext_resource path="res://assets/player/Male_7_Pickup8.png" type="Texture" id=144]
+[ext_resource path="res://assets/player/Male_4_Pickup6.png" type="Texture" id=145]
+[ext_resource path="res://assets/player/Male_7_Pickup9.png" type="Texture" id=146]
+[ext_resource path="res://assets/player/Male_4_Pickup5.png" type="Texture" id=147]
+[ext_resource path="res://assets/player/Male_1_Pickup0.png" type="Texture" id=148]
+[ext_resource path="res://assets/player/Male_0_Pickup3.png" type="Texture" id=149]
+[ext_resource path="res://assets/player/Male_6_Pickup1.png" type="Texture" id=150]
+[ext_resource path="res://assets/player/Male_0_Pickup1.png" type="Texture" id=151]
+[ext_resource path="res://assets/player/Male_1_Pickup1.png" type="Texture" id=152]
+[ext_resource path="res://assets/player/Male_6_Pickup4.png" type="Texture" id=153]
+[ext_resource path="res://assets/player/Male_2_Pickup0.png" type="Texture" id=154]
+[ext_resource path="res://assets/player/Male_0_Pickup7.png" type="Texture" id=155]
+[ext_resource path="res://assets/player/Male_1_Pickup2.png" type="Texture" id=156]
+[ext_resource path="res://assets/player/Male_1_Pickup6.png" type="Texture" id=157]
+[ext_resource path="res://assets/player/Male_2_Pickup1.png" type="Texture" id=158]
+[ext_resource path="res://assets/player/Male_6_Pickup5.png" type="Texture" id=159]
+[ext_resource path="res://assets/player/Male_1_Pickup3.png" type="Texture" id=160]
+[ext_resource path="res://assets/player/Male_6_Pickup2.png" type="Texture" id=161]
+[ext_resource path="res://assets/player/Male_0_Pickup8.png" type="Texture" id=162]
+[ext_resource path="res://assets/player/Male_4_Pickup4.png" type="Texture" id=163]
+[ext_resource path="res://assets/player/Male_0_Pickup0.png" type="Texture" id=164]
+[ext_resource path="res://assets/player/Male_6_Pickup0.png" type="Texture" id=165]
+[ext_resource path="res://assets/player/Male_6_Pickup3.png" type="Texture" id=166]
+[ext_resource path="res://assets/player/Male_0_Pickup9.png" type="Texture" id=167]
+[ext_resource path="res://assets/player/Male_2_Pickup6.png" type="Texture" id=168]
 
 [resource]
 0/name = "Male0Idle0"
-0/texture = ExtResource( 152 )
+0/texture = ExtResource( 25 )
 0/tex_offset = Vector2( 0, 0 )
 0/modulate = Color( 1, 1, 1, 1 )
 0/region = Rect2( 0, 0, 256, 512 )
@@ -185,7 +185,7 @@
 0/shapes = [  ]
 0/z_index = 0
 1/name = "Male0Pickup0"
-1/texture = ExtResource( 147 )
+1/texture = ExtResource( 164 )
 1/tex_offset = Vector2( 0, 0 )
 1/modulate = Color( 1, 1, 1, 1 )
 1/region = Rect2( 0, 0, 256, 512 )
@@ -199,7 +199,7 @@
 1/shapes = [  ]
 1/z_index = 0
 2/name = "Male0Pickup1"
-2/texture = ExtResource( 130 )
+2/texture = ExtResource( 151 )
 2/tex_offset = Vector2( 0, 0 )
 2/modulate = Color( 1, 1, 1, 1 )
 2/region = Rect2( 0, 0, 256, 512 )
@@ -213,7 +213,7 @@
 2/shapes = [  ]
 2/z_index = 0
 3/name = "Male0Pickup2"
-3/texture = ExtResource( 46 )
+3/texture = ExtResource( 124 )
 3/tex_offset = Vector2( 0, 0 )
 3/modulate = Color( 1, 1, 1, 1 )
 3/region = Rect2( 0, 0, 256, 512 )
@@ -227,7 +227,7 @@
 3/shapes = [  ]
 3/z_index = 0
 4/name = "Male0Pickup3"
-4/texture = ExtResource( 127 )
+4/texture = ExtResource( 149 )
 4/tex_offset = Vector2( 0, 0 )
 4/modulate = Color( 1, 1, 1, 1 )
 4/region = Rect2( 0, 0, 256, 512 )
@@ -241,7 +241,7 @@
 4/shapes = [  ]
 4/z_index = 0
 5/name = "Male0Pickup4"
-5/texture = ExtResource( 16 )
+5/texture = ExtResource( 120 )
 5/tex_offset = Vector2( 0, 0 )
 5/modulate = Color( 1, 1, 1, 1 )
 5/region = Rect2( 0, 0, 256, 512 )
@@ -255,7 +255,7 @@
 5/shapes = [  ]
 5/z_index = 0
 6/name = "Male0Pickup5"
-6/texture = ExtResource( 47 )
+6/texture = ExtResource( 103 )
 6/tex_offset = Vector2( 0, 0 )
 6/modulate = Color( 1, 1, 1, 1 )
 6/region = Rect2( 0, 0, 256, 512 )
@@ -269,7 +269,7 @@
 6/shapes = [  ]
 6/z_index = 0
 7/name = "Male0Pickup6"
-7/texture = ExtResource( 48 )
+7/texture = ExtResource( 101 )
 7/tex_offset = Vector2( 0, 0 )
 7/modulate = Color( 1, 1, 1, 1 )
 7/region = Rect2( 0, 0, 256, 512 )
@@ -283,7 +283,7 @@
 7/shapes = [  ]
 7/z_index = 0
 8/name = "Male0Pickup7"
-8/texture = ExtResource( 141 )
+8/texture = ExtResource( 155 )
 8/tex_offset = Vector2( 0, 0 )
 8/modulate = Color( 1, 1, 1, 1 )
 8/region = Rect2( 0, 0, 256, 512 )
@@ -297,7 +297,7 @@
 8/shapes = [  ]
 8/z_index = 0
 9/name = "Male0Pickup8"
-9/texture = ExtResource( 143 )
+9/texture = ExtResource( 162 )
 9/tex_offset = Vector2( 0, 0 )
 9/modulate = Color( 1, 1, 1, 1 )
 9/region = Rect2( 0, 0, 256, 512 )
@@ -311,7 +311,7 @@
 9/shapes = [  ]
 9/z_index = 0
 10/name = "Male0Pickup9"
-10/texture = ExtResource( 146 )
+10/texture = ExtResource( 167 )
 10/tex_offset = Vector2( 0, 0 )
 10/modulate = Color( 1, 1, 1, 1 )
 10/region = Rect2( 0, 0, 256, 512 )
@@ -325,7 +325,7 @@
 10/shapes = [  ]
 10/z_index = 0
 11/name = "Male0Run0"
-11/texture = ExtResource( 135 )
+11/texture = ExtResource( 14 )
 11/tex_offset = Vector2( 0, 0 )
 11/modulate = Color( 1, 1, 1, 1 )
 11/region = Rect2( 0, 0, 256, 512 )
@@ -339,7 +339,7 @@
 11/shapes = [  ]
 11/z_index = 0
 12/name = "Male0Run1"
-12/texture = ExtResource( 136 )
+12/texture = ExtResource( 23 )
 12/tex_offset = Vector2( 0, 0 )
 12/modulate = Color( 1, 1, 1, 1 )
 12/region = Rect2( 0, 0, 256, 512 )
@@ -353,7 +353,7 @@
 12/shapes = [  ]
 12/z_index = 0
 13/name = "Male0Run2"
-13/texture = ExtResource( 138 )
+13/texture = ExtResource( 15 )
 13/tex_offset = Vector2( 0, 0 )
 13/modulate = Color( 1, 1, 1, 1 )
 13/region = Rect2( 0, 0, 256, 512 )
@@ -367,7 +367,7 @@
 13/shapes = [  ]
 13/z_index = 0
 14/name = "Male0Run3"
-14/texture = ExtResource( 145 )
+14/texture = ExtResource( 24 )
 14/tex_offset = Vector2( 0, 0 )
 14/modulate = Color( 1, 1, 1, 1 )
 14/region = Rect2( 0, 0, 256, 512 )
@@ -381,7 +381,7 @@
 14/shapes = [  ]
 14/z_index = 0
 15/name = "Male0Run4"
-15/texture = ExtResource( 139 )
+15/texture = ExtResource( 3 )
 15/tex_offset = Vector2( 0, 0 )
 15/modulate = Color( 1, 1, 1, 1 )
 15/region = Rect2( 0, 0, 256, 512 )
@@ -395,7 +395,7 @@
 15/shapes = [  ]
 15/z_index = 0
 16/name = "Male0Run5"
-16/texture = ExtResource( 142 )
+16/texture = ExtResource( 26 )
 16/tex_offset = Vector2( 0, 0 )
 16/modulate = Color( 1, 1, 1, 1 )
 16/region = Rect2( 0, 0, 256, 512 )
@@ -409,7 +409,7 @@
 16/shapes = [  ]
 16/z_index = 0
 17/name = "Male0Run6"
-17/texture = ExtResource( 137 )
+17/texture = ExtResource( 13 )
 17/tex_offset = Vector2( 0, 0 )
 17/modulate = Color( 1, 1, 1, 1 )
 17/region = Rect2( 0, 0, 256, 512 )
@@ -423,7 +423,7 @@
 17/shapes = [  ]
 17/z_index = 0
 18/name = "Male0Run7"
-18/texture = ExtResource( 131 )
+18/texture = ExtResource( 5 )
 18/tex_offset = Vector2( 0, 0 )
 18/modulate = Color( 1, 1, 1, 1 )
 18/region = Rect2( 0, 0, 256, 512 )
@@ -437,7 +437,7 @@
 18/shapes = [  ]
 18/z_index = 0
 19/name = "Male0Run8"
-19/texture = ExtResource( 144 )
+19/texture = ExtResource( 2 )
 19/tex_offset = Vector2( 0, 0 )
 19/modulate = Color( 1, 1, 1, 1 )
 19/region = Rect2( 0, 0, 256, 512 )
@@ -451,7 +451,7 @@
 19/shapes = [  ]
 19/z_index = 0
 20/name = "Male0Run9"
-20/texture = ExtResource( 134 )
+20/texture = ExtResource( 22 )
 20/tex_offset = Vector2( 0, 0 )
 20/modulate = Color( 1, 1, 1, 1 )
 20/region = Rect2( 0, 0, 256, 512 )
@@ -465,7 +465,7 @@
 20/shapes = [  ]
 20/z_index = 0
 21/name = "Male1Idle0"
-21/texture = ExtResource( 140 )
+21/texture = ExtResource( 60 )
 21/tex_offset = Vector2( 0, 0 )
 21/modulate = Color( 1, 1, 1, 1 )
 21/region = Rect2( 0, 0, 256, 512 )
@@ -479,7 +479,7 @@
 21/shapes = [  ]
 21/z_index = 0
 22/name = "Male1Pickup0"
-22/texture = ExtResource( 162 )
+22/texture = ExtResource( 148 )
 22/tex_offset = Vector2( 0, 0 )
 22/modulate = Color( 1, 1, 1, 1 )
 22/region = Rect2( 0, 0, 256, 512 )
@@ -493,7 +493,7 @@
 22/shapes = [  ]
 22/z_index = 0
 23/name = "Male1Pickup1"
-23/texture = ExtResource( 148 )
+23/texture = ExtResource( 152 )
 23/tex_offset = Vector2( 0, 0 )
 23/modulate = Color( 1, 1, 1, 1 )
 23/region = Rect2( 0, 0, 256, 512 )
@@ -507,7 +507,7 @@
 23/shapes = [  ]
 23/z_index = 0
 24/name = "Male1Pickup2"
-24/texture = ExtResource( 132 )
+24/texture = ExtResource( 156 )
 24/tex_offset = Vector2( 0, 0 )
 24/modulate = Color( 1, 1, 1, 1 )
 24/region = Rect2( 0, 0, 256, 512 )
@@ -521,7 +521,7 @@
 24/shapes = [  ]
 24/z_index = 0
 25/name = "Male1Pickup3"
-25/texture = ExtResource( 133 )
+25/texture = ExtResource( 160 )
 25/tex_offset = Vector2( 0, 0 )
 25/modulate = Color( 1, 1, 1, 1 )
 25/region = Rect2( 0, 0, 256, 512 )
@@ -535,7 +535,7 @@
 25/shapes = [  ]
 25/z_index = 0
 26/name = "Male1Pickup4"
-26/texture = ExtResource( 110 )
+26/texture = ExtResource( 44 )
 26/tex_offset = Vector2( 0, 0 )
 26/modulate = Color( 1, 1, 1, 1 )
 26/region = Rect2( 0, 0, 256, 512 )
@@ -549,7 +549,7 @@
 26/shapes = [  ]
 26/z_index = 0
 27/name = "Male1Pickup5"
-27/texture = ExtResource( 111 )
+27/texture = ExtResource( 52 )
 27/tex_offset = Vector2( 0, 0 )
 27/modulate = Color( 1, 1, 1, 1 )
 27/region = Rect2( 0, 0, 256, 512 )
@@ -563,7 +563,7 @@
 27/shapes = [  ]
 27/z_index = 0
 28/name = "Male1Pickup6"
-28/texture = ExtResource( 163 )
+28/texture = ExtResource( 157 )
 28/tex_offset = Vector2( 0, 0 )
 28/modulate = Color( 1, 1, 1, 1 )
 28/region = Rect2( 0, 0, 256, 512 )
@@ -577,7 +577,7 @@
 28/shapes = [  ]
 28/z_index = 0
 29/name = "Male1Pickup7"
-29/texture = ExtResource( 19 )
+29/texture = ExtResource( 121 )
 29/tex_offset = Vector2( 0, 0 )
 29/modulate = Color( 1, 1, 1, 1 )
 29/region = Rect2( 0, 0, 256, 512 )
@@ -591,7 +591,7 @@
 29/shapes = [  ]
 29/z_index = 0
 30/name = "Male1Pickup8"
-30/texture = ExtResource( 49 )
+30/texture = ExtResource( 127 )
 30/tex_offset = Vector2( 0, 0 )
 30/modulate = Color( 1, 1, 1, 1 )
 30/region = Rect2( 0, 0, 256, 512 )
@@ -605,7 +605,7 @@
 30/shapes = [  ]
 30/z_index = 0
 31/name = "Male1Pickup9"
-31/texture = ExtResource( 25 )
+31/texture = ExtResource( 110 )
 31/tex_offset = Vector2( 0, 0 )
 31/modulate = Color( 1, 1, 1, 1 )
 31/region = Rect2( 0, 0, 256, 512 )
@@ -619,7 +619,7 @@
 31/shapes = [  ]
 31/z_index = 0
 32/name = "Male1Run0"
-32/texture = ExtResource( 26 )
+32/texture = ExtResource( 91 )
 32/tex_offset = Vector2( 0, 0 )
 32/modulate = Color( 1, 1, 1, 1 )
 32/region = Rect2( 0, 0, 256, 512 )
@@ -633,7 +633,7 @@
 32/shapes = [  ]
 32/z_index = 0
 33/name = "Male1Run1"
-33/texture = ExtResource( 27 )
+33/texture = ExtResource( 28 )
 33/tex_offset = Vector2( 0, 0 )
 33/modulate = Color( 1, 1, 1, 1 )
 33/region = Rect2( 0, 0, 256, 512 )
@@ -647,7 +647,7 @@
 33/shapes = [  ]
 33/z_index = 0
 34/name = "Male1Run2"
-34/texture = ExtResource( 164 )
+34/texture = ExtResource( 7 )
 34/tex_offset = Vector2( 0, 0 )
 34/modulate = Color( 1, 1, 1, 1 )
 34/region = Rect2( 0, 0, 256, 512 )
@@ -661,7 +661,7 @@
 34/shapes = [  ]
 34/z_index = 0
 35/name = "Male1Run3"
-35/texture = ExtResource( 165 )
+35/texture = ExtResource( 76 )
 35/tex_offset = Vector2( 0, 0 )
 35/modulate = Color( 1, 1, 1, 1 )
 35/region = Rect2( 0, 0, 256, 512 )
@@ -675,7 +675,7 @@
 35/shapes = [  ]
 35/z_index = 0
 36/name = "Male1Run4"
-36/texture = ExtResource( 166 )
+36/texture = ExtResource( 68 )
 36/tex_offset = Vector2( 0, 0 )
 36/modulate = Color( 1, 1, 1, 1 )
 36/region = Rect2( 0, 0, 256, 512 )
@@ -689,7 +689,7 @@
 36/shapes = [  ]
 36/z_index = 0
 37/name = "Male1Run5"
-37/texture = ExtResource( 128 )
+37/texture = ExtResource( 74 )
 37/tex_offset = Vector2( 0, 0 )
 37/modulate = Color( 1, 1, 1, 1 )
 37/region = Rect2( 0, 0, 256, 512 )
@@ -703,7 +703,7 @@
 37/shapes = [  ]
 37/z_index = 0
 38/name = "Male1Run6"
-38/texture = ExtResource( 161 )
+38/texture = ExtResource( 93 )
 38/tex_offset = Vector2( 0, 0 )
 38/modulate = Color( 1, 1, 1, 1 )
 38/region = Rect2( 0, 0, 256, 512 )
@@ -717,7 +717,7 @@
 38/shapes = [  ]
 38/z_index = 0
 39/name = "Male1Run7"
-39/texture = ExtResource( 28 )
+39/texture = ExtResource( 37 )
 39/tex_offset = Vector2( 0, 0 )
 39/modulate = Color( 1, 1, 1, 1 )
 39/region = Rect2( 0, 0, 256, 512 )
@@ -731,7 +731,7 @@
 39/shapes = [  ]
 39/z_index = 0
 40/name = "Male1Run8"
-40/texture = ExtResource( 160 )
+40/texture = ExtResource( 85 )
 40/tex_offset = Vector2( 0, 0 )
 40/modulate = Color( 1, 1, 1, 1 )
 40/region = Rect2( 0, 0, 256, 512 )
@@ -745,7 +745,7 @@
 40/shapes = [  ]
 40/z_index = 0
 41/name = "Male1Run9"
-41/texture = ExtResource( 158 )
+41/texture = ExtResource( 42 )
 41/tex_offset = Vector2( 0, 0 )
 41/modulate = Color( 1, 1, 1, 1 )
 41/region = Rect2( 0, 0, 256, 512 )
@@ -759,7 +759,7 @@
 41/shapes = [  ]
 41/z_index = 0
 42/name = "Male2Idle0"
-42/texture = ExtResource( 159 )
+42/texture = ExtResource( 43 )
 42/tex_offset = Vector2( 0, 0 )
 42/modulate = Color( 1, 1, 1, 1 )
 42/region = Rect2( 0, 0, 256, 512 )
@@ -773,7 +773,7 @@
 42/shapes = [  ]
 42/z_index = 0
 43/name = "Male2Pickup0"
-43/texture = ExtResource( 149 )
+43/texture = ExtResource( 154 )
 43/tex_offset = Vector2( 0, 0 )
 43/modulate = Color( 1, 1, 1, 1 )
 43/region = Rect2( 0, 0, 256, 512 )
@@ -787,7 +787,7 @@
 43/shapes = [  ]
 43/z_index = 0
 44/name = "Male2Pickup1"
-44/texture = ExtResource( 151 )
+44/texture = ExtResource( 158 )
 44/tex_offset = Vector2( 0, 0 )
 44/modulate = Color( 1, 1, 1, 1 )
 44/region = Rect2( 0, 0, 256, 512 )
@@ -801,7 +801,7 @@
 44/shapes = [  ]
 44/z_index = 0
 45/name = "Male2Pickup2"
-45/texture = ExtResource( 112 )
+45/texture = ExtResource( 53 )
 45/tex_offset = Vector2( 0, 0 )
 45/modulate = Color( 1, 1, 1, 1 )
 45/region = Rect2( 0, 0, 256, 512 )
@@ -815,7 +815,7 @@
 45/shapes = [  ]
 45/z_index = 0
 46/name = "Male2Pickup3"
-46/texture = ExtResource( 29 )
+46/texture = ExtResource( 138 )
 46/tex_offset = Vector2( 0, 0 )
 46/modulate = Color( 1, 1, 1, 1 )
 46/region = Rect2( 0, 0, 256, 512 )
@@ -829,7 +829,7 @@
 46/shapes = [  ]
 46/z_index = 0
 47/name = "Male2Pickup4"
-47/texture = ExtResource( 35 )
+47/texture = ExtResource( 123 )
 47/tex_offset = Vector2( 0, 0 )
 47/modulate = Color( 1, 1, 1, 1 )
 47/region = Rect2( 0, 0, 256, 512 )
@@ -843,7 +843,7 @@
 47/shapes = [  ]
 47/z_index = 0
 48/name = "Male2Pickup5"
-48/texture = ExtResource( 30 )
+48/texture = ExtResource( 122 )
 48/tex_offset = Vector2( 0, 0 )
 48/modulate = Color( 1, 1, 1, 1 )
 48/region = Rect2( 0, 0, 256, 512 )
@@ -857,7 +857,7 @@
 48/shapes = [  ]
 48/z_index = 0
 49/name = "Male2Pickup6"
-49/texture = ExtResource( 167 )
+49/texture = ExtResource( 168 )
 49/tex_offset = Vector2( 0, 0 )
 49/modulate = Color( 1, 1, 1, 1 )
 49/region = Rect2( 0, 0, 256, 512 )
@@ -871,7 +871,7 @@
 49/shapes = [  ]
 49/z_index = 0
 50/name = "Male2Pickup7"
-50/texture = ExtResource( 31 )
+50/texture = ExtResource( 105 )
 50/tex_offset = Vector2( 0, 0 )
 50/modulate = Color( 1, 1, 1, 1 )
 50/region = Rect2( 0, 0, 256, 512 )
@@ -885,7 +885,7 @@
 50/shapes = [  ]
 50/z_index = 0
 51/name = "Male2Pickup8"
-51/texture = ExtResource( 32 )
+51/texture = ExtResource( 114 )
 51/tex_offset = Vector2( 0, 0 )
 51/modulate = Color( 1, 1, 1, 1 )
 51/region = Rect2( 0, 0, 256, 512 )
@@ -899,7 +899,7 @@
 51/shapes = [  ]
 51/z_index = 0
 52/name = "Male2Pickup9"
-52/texture = ExtResource( 113 )
+52/texture = ExtResource( 50 )
 52/tex_offset = Vector2( 0, 0 )
 52/modulate = Color( 1, 1, 1, 1 )
 52/region = Rect2( 0, 0, 256, 512 )
@@ -913,7 +913,7 @@
 52/shapes = [  ]
 52/z_index = 0
 53/name = "Male2Run0"
-53/texture = ExtResource( 114 )
+53/texture = ExtResource( 48 )
 53/tex_offset = Vector2( 0, 0 )
 53/modulate = Color( 1, 1, 1, 1 )
 53/region = Rect2( 0, 0, 256, 512 )
@@ -927,7 +927,7 @@
 53/shapes = [  ]
 53/z_index = 0
 54/name = "Male2Run1"
-54/texture = ExtResource( 115 )
+54/texture = ExtResource( 73 )
 54/tex_offset = Vector2( 0, 0 )
 54/modulate = Color( 1, 1, 1, 1 )
 54/region = Rect2( 0, 0, 256, 512 )
@@ -941,7 +941,7 @@
 54/shapes = [  ]
 54/z_index = 0
 55/name = "Male2Run2"
-55/texture = ExtResource( 116 )
+55/texture = ExtResource( 11 )
 55/tex_offset = Vector2( 0, 0 )
 55/modulate = Color( 1, 1, 1, 1 )
 55/region = Rect2( 0, 0, 256, 512 )
@@ -955,7 +955,7 @@
 55/shapes = [  ]
 55/z_index = 0
 56/name = "Male2Run3"
-56/texture = ExtResource( 129 )
+56/texture = ExtResource( 45 )
 56/tex_offset = Vector2( 0, 0 )
 56/modulate = Color( 1, 1, 1, 1 )
 56/region = Rect2( 0, 0, 256, 512 )
@@ -969,7 +969,7 @@
 56/shapes = [  ]
 56/z_index = 0
 57/name = "Male2Run4"
-57/texture = ExtResource( 8 )
+57/texture = ExtResource( 63 )
 57/tex_offset = Vector2( 0, 0 )
 57/modulate = Color( 1, 1, 1, 1 )
 57/region = Rect2( 0, 0, 256, 512 )
@@ -983,7 +983,7 @@
 57/shapes = [  ]
 57/z_index = 0
 58/name = "Male2Run5"
-58/texture = ExtResource( 9 )
+58/texture = ExtResource( 75 )
 58/tex_offset = Vector2( 0, 0 )
 58/modulate = Color( 1, 1, 1, 1 )
 58/region = Rect2( 0, 0, 256, 512 )
@@ -997,7 +997,7 @@
 58/shapes = [  ]
 58/z_index = 0
 59/name = "Male2Run6"
-59/texture = ExtResource( 10 )
+59/texture = ExtResource( 27 )
 59/tex_offset = Vector2( 0, 0 )
 59/modulate = Color( 1, 1, 1, 1 )
 59/region = Rect2( 0, 0, 256, 512 )
@@ -1011,7 +1011,7 @@
 59/shapes = [  ]
 59/z_index = 0
 60/name = "Male2Run7"
-60/texture = ExtResource( 11 )
+60/texture = ExtResource( 16 )
 60/tex_offset = Vector2( 0, 0 )
 60/modulate = Color( 1, 1, 1, 1 )
 60/region = Rect2( 0, 0, 256, 512 )
@@ -1025,7 +1025,7 @@
 60/shapes = [  ]
 60/z_index = 0
 61/name = "Male2Run8"
-61/texture = ExtResource( 12 )
+61/texture = ExtResource( 6 )
 61/tex_offset = Vector2( 0, 0 )
 61/modulate = Color( 1, 1, 1, 1 )
 61/region = Rect2( 0, 0, 256, 512 )
@@ -1039,7 +1039,7 @@
 61/shapes = [  ]
 61/z_index = 0
 62/name = "Male2Run9"
-62/texture = ExtResource( 13 )
+62/texture = ExtResource( 39 )
 62/tex_offset = Vector2( 0, 0 )
 62/modulate = Color( 1, 1, 1, 1 )
 62/region = Rect2( 0, 0, 256, 512 )
@@ -1053,7 +1053,7 @@
 62/shapes = [  ]
 62/z_index = 0
 63/name = "Male3Idle0"
-63/texture = ExtResource( 14 )
+63/texture = ExtResource( 79 )
 63/tex_offset = Vector2( 0, 0 )
 63/modulate = Color( 1, 1, 1, 1 )
 63/region = Rect2( 0, 0, 256, 512 )
@@ -1067,7 +1067,7 @@
 63/shapes = [  ]
 63/z_index = 0
 64/name = "Male3Pickup0"
-64/texture = ExtResource( 15 )
+64/texture = ExtResource( 107 )
 64/tex_offset = Vector2( 0, 0 )
 64/modulate = Color( 1, 1, 1, 1 )
 64/region = Rect2( 0, 0, 256, 512 )
@@ -1081,7 +1081,7 @@
 64/shapes = [  ]
 64/z_index = 0
 65/name = "Male3Pickup1"
-65/texture = ExtResource( 7 )
+65/texture = ExtResource( 117 )
 65/tex_offset = Vector2( 0, 0 )
 65/modulate = Color( 1, 1, 1, 1 )
 65/region = Rect2( 0, 0, 256, 512 )
@@ -1095,7 +1095,7 @@
 65/shapes = [  ]
 65/z_index = 0
 66/name = "Male3Pickup2"
-66/texture = ExtResource( 33 )
+66/texture = ExtResource( 139 )
 66/tex_offset = Vector2( 0, 0 )
 66/modulate = Color( 1, 1, 1, 1 )
 66/region = Rect2( 0, 0, 256, 512 )
@@ -1109,7 +1109,7 @@
 66/shapes = [  ]
 66/z_index = 0
 67/name = "Male3Pickup3"
-67/texture = ExtResource( 34 )
+67/texture = ExtResource( 119 )
 67/tex_offset = Vector2( 0, 0 )
 67/modulate = Color( 1, 1, 1, 1 )
 67/region = Rect2( 0, 0, 256, 512 )
@@ -1123,7 +1123,7 @@
 67/shapes = [  ]
 67/z_index = 0
 68/name = "Male3Pickup4"
-68/texture = ExtResource( 24 )
+68/texture = ExtResource( 109 )
 68/tex_offset = Vector2( 0, 0 )
 68/modulate = Color( 1, 1, 1, 1 )
 68/region = Rect2( 0, 0, 256, 512 )
@@ -1137,7 +1137,7 @@
 68/shapes = [  ]
 68/z_index = 0
 69/name = "Male3Pickup5"
-69/texture = ExtResource( 117 )
+69/texture = ExtResource( 62 )
 69/tex_offset = Vector2( 0, 0 )
 69/modulate = Color( 1, 1, 1, 1 )
 69/region = Rect2( 0, 0, 256, 512 )
@@ -1151,7 +1151,7 @@
 69/shapes = [  ]
 69/z_index = 0
 70/name = "Male3Pickup6"
-70/texture = ExtResource( 118 )
+70/texture = ExtResource( 98 )
 70/tex_offset = Vector2( 0, 0 )
 70/modulate = Color( 1, 1, 1, 1 )
 70/region = Rect2( 0, 0, 256, 512 )
@@ -1165,7 +1165,7 @@
 70/shapes = [  ]
 70/z_index = 0
 71/name = "Male3Pickup7"
-71/texture = ExtResource( 119 )
+71/texture = ExtResource( 99 )
 71/tex_offset = Vector2( 0, 0 )
 71/modulate = Color( 1, 1, 1, 1 )
 71/region = Rect2( 0, 0, 256, 512 )
@@ -1179,7 +1179,7 @@
 71/shapes = [  ]
 71/z_index = 0
 72/name = "Male3Pickup8"
-72/texture = ExtResource( 120 )
+72/texture = ExtResource( 95 )
 72/tex_offset = Vector2( 0, 0 )
 72/modulate = Color( 1, 1, 1, 1 )
 72/region = Rect2( 0, 0, 256, 512 )
@@ -1193,7 +1193,7 @@
 72/shapes = [  ]
 72/z_index = 0
 73/name = "Male3Pickup9"
-73/texture = ExtResource( 121 )
+73/texture = ExtResource( 100 )
 73/tex_offset = Vector2( 0, 0 )
 73/modulate = Color( 1, 1, 1, 1 )
 73/region = Rect2( 0, 0, 256, 512 )
@@ -1207,7 +1207,7 @@
 73/shapes = [  ]
 73/z_index = 0
 74/name = "Male3Run0"
-74/texture = ExtResource( 122 )
+74/texture = ExtResource( 94 )
 74/tex_offset = Vector2( 0, 0 )
 74/modulate = Color( 1, 1, 1, 1 )
 74/region = Rect2( 0, 0, 256, 512 )
@@ -1221,7 +1221,7 @@
 74/shapes = [  ]
 74/z_index = 0
 75/name = "Male3Run1"
-75/texture = ExtResource( 52 )
+75/texture = ExtResource( 77 )
 75/tex_offset = Vector2( 0, 0 )
 75/modulate = Color( 1, 1, 1, 1 )
 75/region = Rect2( 0, 0, 256, 512 )
@@ -1235,7 +1235,7 @@
 75/shapes = [  ]
 75/z_index = 0
 76/name = "Male3Run2"
-76/texture = ExtResource( 5 )
+76/texture = ExtResource( 57 )
 76/tex_offset = Vector2( 0, 0 )
 76/modulate = Color( 1, 1, 1, 1 )
 76/region = Rect2( 0, 0, 256, 512 )
@@ -1249,7 +1249,7 @@
 76/shapes = [  ]
 76/z_index = 0
 77/name = "Male3Run3"
-77/texture = ExtResource( 6 )
+77/texture = ExtResource( 88 )
 77/tex_offset = Vector2( 0, 0 )
 77/modulate = Color( 1, 1, 1, 1 )
 77/region = Rect2( 0, 0, 256, 512 )
@@ -1263,7 +1263,7 @@
 77/shapes = [  ]
 77/z_index = 0
 78/name = "Male3Run4"
-78/texture = ExtResource( 1 )
+78/texture = ExtResource( 92 )
 78/tex_offset = Vector2( 0, 0 )
 78/modulate = Color( 1, 1, 1, 1 )
 78/region = Rect2( 0, 0, 256, 512 )
@@ -1277,7 +1277,7 @@
 78/shapes = [  ]
 78/z_index = 0
 79/name = "Male3Run5"
-79/texture = ExtResource( 2 )
+79/texture = ExtResource( 78 )
 79/tex_offset = Vector2( 0, 0 )
 79/modulate = Color( 1, 1, 1, 1 )
 79/region = Rect2( 0, 0, 256, 512 )
@@ -1291,7 +1291,7 @@
 79/shapes = [  ]
 79/z_index = 0
 80/name = "Male3Run6"
-80/texture = ExtResource( 3 )
+80/texture = ExtResource( 21 )
 80/tex_offset = Vector2( 0, 0 )
 80/modulate = Color( 1, 1, 1, 1 )
 80/region = Rect2( 0, 0, 256, 512 )
@@ -1305,7 +1305,7 @@
 80/shapes = [  ]
 80/z_index = 0
 81/name = "Male3Run7"
-81/texture = ExtResource( 4 )
+81/texture = ExtResource( 38 )
 81/tex_offset = Vector2( 0, 0 )
 81/modulate = Color( 1, 1, 1, 1 )
 81/region = Rect2( 0, 0, 256, 512 )
@@ -1319,7 +1319,7 @@
 81/shapes = [  ]
 81/z_index = 0
 82/name = "Male3Run8"
-82/texture = ExtResource( 20 )
+82/texture = ExtResource( 90 )
 82/tex_offset = Vector2( 0, 0 )
 82/modulate = Color( 1, 1, 1, 1 )
 82/region = Rect2( 0, 0, 256, 512 )
@@ -1333,7 +1333,7 @@
 82/shapes = [  ]
 82/z_index = 0
 83/name = "Male3Run9"
-83/texture = ExtResource( 21 )
+83/texture = ExtResource( 41 )
 83/tex_offset = Vector2( 0, 0 )
 83/modulate = Color( 1, 1, 1, 1 )
 83/region = Rect2( 0, 0, 256, 512 )
@@ -1347,7 +1347,7 @@
 83/shapes = [  ]
 83/z_index = 0
 84/name = "Male4Idle0"
-84/texture = ExtResource( 23 )
+84/texture = ExtResource( 59 )
 84/tex_offset = Vector2( 0, 0 )
 84/modulate = Color( 1, 1, 1, 1 )
 84/region = Rect2( 0, 0, 256, 512 )
@@ -1361,7 +1361,7 @@
 84/shapes = [  ]
 84/z_index = 0
 85/name = "Male4Pickup0"
-85/texture = ExtResource( 53 )
+85/texture = ExtResource( 125 )
 85/tex_offset = Vector2( 0, 0 )
 85/modulate = Color( 1, 1, 1, 1 )
 85/region = Rect2( 0, 0, 256, 512 )
@@ -1375,7 +1375,7 @@
 85/shapes = [  ]
 85/z_index = 0
 86/name = "Male4Pickup1"
-86/texture = ExtResource( 123 )
+86/texture = ExtResource( 96 )
 86/tex_offset = Vector2( 0, 0 )
 86/modulate = Color( 1, 1, 1, 1 )
 86/region = Rect2( 0, 0, 256, 512 )
@@ -1389,7 +1389,7 @@
 86/shapes = [  ]
 86/z_index = 0
 87/name = "Male4Pickup2"
-87/texture = ExtResource( 124 )
+87/texture = ExtResource( 97 )
 87/tex_offset = Vector2( 0, 0 )
 87/modulate = Color( 1, 1, 1, 1 )
 87/region = Rect2( 0, 0, 256, 512 )
@@ -1403,7 +1403,7 @@
 87/shapes = [  ]
 87/z_index = 0
 88/name = "Male4Pickup3"
-88/texture = ExtResource( 125 )
+88/texture = ExtResource( 1 )
 88/tex_offset = Vector2( 0, 0 )
 88/modulate = Color( 1, 1, 1, 1 )
 88/region = Rect2( 0, 0, 256, 512 )
@@ -1417,7 +1417,7 @@
 88/shapes = [  ]
 88/z_index = 0
 89/name = "Male4Pickup4"
-89/texture = ExtResource( 126 )
+89/texture = ExtResource( 163 )
 89/tex_offset = Vector2( 0, 0 )
 89/modulate = Color( 1, 1, 1, 1 )
 89/region = Rect2( 0, 0, 256, 512 )
@@ -1431,7 +1431,7 @@
 89/shapes = [  ]
 89/z_index = 0
 90/name = "Male4Pickup5"
-90/texture = ExtResource( 100 )
+90/texture = ExtResource( 147 )
 90/tex_offset = Vector2( 0, 0 )
 90/modulate = Color( 1, 1, 1, 1 )
 90/region = Rect2( 0, 0, 256, 512 )
@@ -1445,7 +1445,7 @@
 90/shapes = [  ]
 90/z_index = 0
 91/name = "Male4Pickup6"
-91/texture = ExtResource( 101 )
+91/texture = ExtResource( 145 )
 91/tex_offset = Vector2( 0, 0 )
 91/modulate = Color( 1, 1, 1, 1 )
 91/region = Rect2( 0, 0, 256, 512 )
@@ -1459,7 +1459,7 @@
 91/shapes = [  ]
 91/z_index = 0
 92/name = "Male4Pickup7"
-92/texture = ExtResource( 102 )
+92/texture = ExtResource( 142 )
 92/tex_offset = Vector2( 0, 0 )
 92/modulate = Color( 1, 1, 1, 1 )
 92/region = Rect2( 0, 0, 256, 512 )
@@ -1473,7 +1473,7 @@
 92/shapes = [  ]
 92/z_index = 0
 93/name = "Male4Pickup8"
-93/texture = ExtResource( 103 )
+93/texture = ExtResource( 143 )
 93/tex_offset = Vector2( 0, 0 )
 93/modulate = Color( 1, 1, 1, 1 )
 93/region = Rect2( 0, 0, 256, 512 )
@@ -1487,7 +1487,7 @@
 93/shapes = [  ]
 93/z_index = 0
 94/name = "Male4Pickup9"
-94/texture = ExtResource( 54 )
+94/texture = ExtResource( 126 )
 94/tex_offset = Vector2( 0, 0 )
 94/modulate = Color( 1, 1, 1, 1 )
 94/region = Rect2( 0, 0, 256, 512 )
@@ -1501,7 +1501,7 @@
 94/shapes = [  ]
 94/z_index = 0
 95/name = "Male4Run0"
-95/texture = ExtResource( 42 )
+95/texture = ExtResource( 71 )
 95/tex_offset = Vector2( 0, 0 )
 95/modulate = Color( 1, 1, 1, 1 )
 95/region = Rect2( 0, 0, 256, 512 )
@@ -1515,7 +1515,7 @@
 95/shapes = [  ]
 95/z_index = 0
 96/name = "Male4Run1"
-96/texture = ExtResource( 43 )
+96/texture = ExtResource( 12 )
 96/tex_offset = Vector2( 0, 0 )
 96/modulate = Color( 1, 1, 1, 1 )
 96/region = Rect2( 0, 0, 256, 512 )
@@ -1529,7 +1529,7 @@
 96/shapes = [  ]
 96/z_index = 0
 97/name = "Male4Run2"
-97/texture = ExtResource( 44 )
+97/texture = ExtResource( 87 )
 97/tex_offset = Vector2( 0, 0 )
 97/modulate = Color( 1, 1, 1, 1 )
 97/region = Rect2( 0, 0, 256, 512 )
@@ -1543,7 +1543,7 @@
 97/shapes = [  ]
 97/z_index = 0
 98/name = "Male4Run3"
-98/texture = ExtResource( 45 )
+98/texture = ExtResource( 81 )
 98/tex_offset = Vector2( 0, 0 )
 98/modulate = Color( 1, 1, 1, 1 )
 98/region = Rect2( 0, 0, 256, 512 )
@@ -1557,7 +1557,7 @@
 98/shapes = [  ]
 98/z_index = 0
 99/name = "Male4Run4"
-99/texture = ExtResource( 39 )
+99/texture = ExtResource( 51 )
 99/tex_offset = Vector2( 0, 0 )
 99/modulate = Color( 1, 1, 1, 1 )
 99/region = Rect2( 0, 0, 256, 512 )
@@ -1571,7 +1571,7 @@
 99/shapes = [  ]
 99/z_index = 0
 100/name = "Male4Run5"
-100/texture = ExtResource( 40 )
+100/texture = ExtResource( 4 )
 100/tex_offset = Vector2( 0, 0 )
 100/modulate = Color( 1, 1, 1, 1 )
 100/region = Rect2( 0, 0, 256, 512 )
@@ -1585,7 +1585,7 @@
 100/shapes = [  ]
 100/z_index = 0
 101/name = "Male4Run6"
-101/texture = ExtResource( 41 )
+101/texture = ExtResource( 9 )
 101/tex_offset = Vector2( 0, 0 )
 101/modulate = Color( 1, 1, 1, 1 )
 101/region = Rect2( 0, 0, 256, 512 )
@@ -1599,7 +1599,7 @@
 101/shapes = [  ]
 101/z_index = 0
 102/name = "Male4Run7"
-102/texture = ExtResource( 36 )
+102/texture = ExtResource( 54 )
 102/tex_offset = Vector2( 0, 0 )
 102/modulate = Color( 1, 1, 1, 1 )
 102/region = Rect2( 0, 0, 256, 512 )
@@ -1613,7 +1613,7 @@
 102/shapes = [  ]
 102/z_index = 0
 103/name = "Male4Run8"
-103/texture = ExtResource( 37 )
+103/texture = ExtResource( 67 )
 103/tex_offset = Vector2( 0, 0 )
 103/modulate = Color( 1, 1, 1, 1 )
 103/region = Rect2( 0, 0, 256, 512 )
@@ -1627,7 +1627,7 @@
 103/shapes = [  ]
 103/z_index = 0
 104/name = "Male4Run9"
-104/texture = ExtResource( 38 )
+104/texture = ExtResource( 58 )
 104/tex_offset = Vector2( 0, 0 )
 104/modulate = Color( 1, 1, 1, 1 )
 104/region = Rect2( 0, 0, 256, 512 )
@@ -1641,7 +1641,7 @@
 104/shapes = [  ]
 104/z_index = 0
 105/name = "Male5Idle0"
-105/texture = ExtResource( 55 )
+105/texture = ExtResource( 83 )
 105/tex_offset = Vector2( 0, 0 )
 105/modulate = Color( 1, 1, 1, 1 )
 105/region = Rect2( 0, 0, 256, 512 )
@@ -1655,7 +1655,7 @@
 105/shapes = [  ]
 105/z_index = 0
 106/name = "Male5Pickup0"
-106/texture = ExtResource( 50 )
+106/texture = ExtResource( 111 )
 106/tex_offset = Vector2( 0, 0 )
 106/modulate = Color( 1, 1, 1, 1 )
 106/region = Rect2( 0, 0, 256, 512 )
@@ -1669,7 +1669,7 @@
 106/shapes = [  ]
 106/z_index = 0
 107/name = "Male5Pickup1"
-107/texture = ExtResource( 51 )
+107/texture = ExtResource( 113 )
 107/tex_offset = Vector2( 0, 0 )
 107/modulate = Color( 1, 1, 1, 1 )
 107/region = Rect2( 0, 0, 256, 512 )
@@ -1683,7 +1683,7 @@
 107/shapes = [  ]
 107/z_index = 0
 108/name = "Male5Pickup2"
-108/texture = ExtResource( 56 )
+108/texture = ExtResource( 128 )
 108/tex_offset = Vector2( 0, 0 )
 108/modulate = Color( 1, 1, 1, 1 )
 108/region = Rect2( 0, 0, 256, 512 )
@@ -1697,7 +1697,7 @@
 108/shapes = [  ]
 108/z_index = 0
 109/name = "Male5Pickup3"
-109/texture = ExtResource( 57 )
+109/texture = ExtResource( 129 )
 109/tex_offset = Vector2( 0, 0 )
 109/modulate = Color( 1, 1, 1, 1 )
 109/region = Rect2( 0, 0, 256, 512 )
@@ -1711,7 +1711,7 @@
 109/shapes = [  ]
 109/z_index = 0
 110/name = "Male5Pickup4"
-110/texture = ExtResource( 58 )
+110/texture = ExtResource( 130 )
 110/tex_offset = Vector2( 0, 0 )
 110/modulate = Color( 1, 1, 1, 1 )
 110/region = Rect2( 0, 0, 256, 512 )
@@ -1725,7 +1725,7 @@
 110/shapes = [  ]
 110/z_index = 0
 111/name = "Male5Pickup5"
-111/texture = ExtResource( 59 )
+111/texture = ExtResource( 102 )
 111/tex_offset = Vector2( 0, 0 )
 111/modulate = Color( 1, 1, 1, 1 )
 111/region = Rect2( 0, 0, 256, 512 )
@@ -1739,7 +1739,7 @@
 111/shapes = [  ]
 111/z_index = 0
 112/name = "Male5Pickup6"
-112/texture = ExtResource( 60 )
+112/texture = ExtResource( 135 )
 112/tex_offset = Vector2( 0, 0 )
 112/modulate = Color( 1, 1, 1, 1 )
 112/region = Rect2( 0, 0, 256, 512 )
@@ -1753,7 +1753,7 @@
 112/shapes = [  ]
 112/z_index = 0
 113/name = "Male5Pickup7"
-113/texture = ExtResource( 61 )
+113/texture = ExtResource( 141 )
 113/tex_offset = Vector2( 0, 0 )
 113/modulate = Color( 1, 1, 1, 1 )
 113/region = Rect2( 0, 0, 256, 512 )
@@ -1767,7 +1767,7 @@
 113/shapes = [  ]
 113/z_index = 0
 114/name = "Male5Pickup8"
-114/texture = ExtResource( 62 )
+114/texture = ExtResource( 112 )
 114/tex_offset = Vector2( 0, 0 )
 114/modulate = Color( 1, 1, 1, 1 )
 114/region = Rect2( 0, 0, 256, 512 )
@@ -1781,7 +1781,7 @@
 114/shapes = [  ]
 114/z_index = 0
 115/name = "Male5Pickup9"
-115/texture = ExtResource( 63 )
+115/texture = ExtResource( 104 )
 115/tex_offset = Vector2( 0, 0 )
 115/modulate = Color( 1, 1, 1, 1 )
 115/region = Rect2( 0, 0, 256, 512 )
@@ -1795,7 +1795,7 @@
 115/shapes = [  ]
 115/z_index = 0
 116/name = "Male5Run0"
-116/texture = ExtResource( 64 )
+116/texture = ExtResource( 69 )
 116/tex_offset = Vector2( 0, 0 )
 116/modulate = Color( 1, 1, 1, 1 )
 116/region = Rect2( 0, 0, 256, 512 )
@@ -1809,7 +1809,7 @@
 116/shapes = [  ]
 116/z_index = 0
 117/name = "Male5Run1"
-117/texture = ExtResource( 65 )
+117/texture = ExtResource( 33 )
 117/tex_offset = Vector2( 0, 0 )
 117/modulate = Color( 1, 1, 1, 1 )
 117/region = Rect2( 0, 0, 256, 512 )
@@ -1823,7 +1823,7 @@
 117/shapes = [  ]
 117/z_index = 0
 118/name = "Male5Run2"
-118/texture = ExtResource( 66 )
+118/texture = ExtResource( 65 )
 118/tex_offset = Vector2( 0, 0 )
 118/modulate = Color( 1, 1, 1, 1 )
 118/region = Rect2( 0, 0, 256, 512 )
@@ -1837,7 +1837,7 @@
 118/shapes = [  ]
 118/z_index = 0
 119/name = "Male5Run3"
-119/texture = ExtResource( 67 )
+119/texture = ExtResource( 35 )
 119/tex_offset = Vector2( 0, 0 )
 119/modulate = Color( 1, 1, 1, 1 )
 119/region = Rect2( 0, 0, 256, 512 )
@@ -1851,7 +1851,7 @@
 119/shapes = [  ]
 119/z_index = 0
 120/name = "Male5Run4"
-120/texture = ExtResource( 68 )
+120/texture = ExtResource( 72 )
 120/tex_offset = Vector2( 0, 0 )
 120/modulate = Color( 1, 1, 1, 1 )
 120/region = Rect2( 0, 0, 256, 512 )
@@ -1865,7 +1865,7 @@
 120/shapes = [  ]
 120/z_index = 0
 121/name = "Male5Run5"
-121/texture = ExtResource( 69 )
+121/texture = ExtResource( 64 )
 121/tex_offset = Vector2( 0, 0 )
 121/modulate = Color( 1, 1, 1, 1 )
 121/region = Rect2( 0, 0, 256, 512 )
@@ -1879,7 +1879,7 @@
 121/shapes = [  ]
 121/z_index = 0
 122/name = "Male5Run6"
-122/texture = ExtResource( 70 )
+122/texture = ExtResource( 66 )
 122/tex_offset = Vector2( 0, 0 )
 122/modulate = Color( 1, 1, 1, 1 )
 122/region = Rect2( 0, 0, 256, 512 )
@@ -1893,7 +1893,7 @@
 122/shapes = [  ]
 122/z_index = 0
 123/name = "Male5Run7"
-123/texture = ExtResource( 71 )
+123/texture = ExtResource( 55 )
 123/tex_offset = Vector2( 0, 0 )
 123/modulate = Color( 1, 1, 1, 1 )
 123/region = Rect2( 0, 0, 256, 512 )
@@ -1907,7 +1907,7 @@
 123/shapes = [  ]
 123/z_index = 0
 124/name = "Male5Run8"
-124/texture = ExtResource( 72 )
+124/texture = ExtResource( 36 )
 124/tex_offset = Vector2( 0, 0 )
 124/modulate = Color( 1, 1, 1, 1 )
 124/region = Rect2( 0, 0, 256, 512 )
@@ -1921,7 +1921,7 @@
 124/shapes = [  ]
 124/z_index = 0
 125/name = "Male5Run9"
-125/texture = ExtResource( 73 )
+125/texture = ExtResource( 8 )
 125/tex_offset = Vector2( 0, 0 )
 125/modulate = Color( 1, 1, 1, 1 )
 125/region = Rect2( 0, 0, 256, 512 )
@@ -1935,7 +1935,7 @@
 125/shapes = [  ]
 125/z_index = 0
 126/name = "Male6Idle0"
-126/texture = ExtResource( 168 )
+126/texture = ExtResource( 61 )
 126/tex_offset = Vector2( 0, 0 )
 126/modulate = Color( 1, 1, 1, 1 )
 126/region = Rect2( 0, 0, 256, 512 )
@@ -1949,7 +1949,7 @@
 126/shapes = [  ]
 126/z_index = 0
 127/name = "Male6Pickup0"
-127/texture = ExtResource( 153 )
+127/texture = ExtResource( 165 )
 127/tex_offset = Vector2( 0, 0 )
 127/modulate = Color( 1, 1, 1, 1 )
 127/region = Rect2( 0, 0, 256, 512 )
@@ -1963,7 +1963,7 @@
 127/shapes = [  ]
 127/z_index = 0
 128/name = "Male6Pickup1"
-128/texture = ExtResource( 154 )
+128/texture = ExtResource( 150 )
 128/tex_offset = Vector2( 0, 0 )
 128/modulate = Color( 1, 1, 1, 1 )
 128/region = Rect2( 0, 0, 256, 512 )
@@ -1977,7 +1977,7 @@
 128/shapes = [  ]
 128/z_index = 0
 129/name = "Male6Pickup2"
-129/texture = ExtResource( 155 )
+129/texture = ExtResource( 161 )
 129/tex_offset = Vector2( 0, 0 )
 129/modulate = Color( 1, 1, 1, 1 )
 129/region = Rect2( 0, 0, 256, 512 )
@@ -1991,7 +1991,7 @@
 129/shapes = [  ]
 129/z_index = 0
 130/name = "Male6Pickup3"
-130/texture = ExtResource( 156 )
+130/texture = ExtResource( 166 )
 130/tex_offset = Vector2( 0, 0 )
 130/modulate = Color( 1, 1, 1, 1 )
 130/region = Rect2( 0, 0, 256, 512 )
@@ -2005,7 +2005,7 @@
 130/shapes = [  ]
 130/z_index = 0
 131/name = "Male6Pickup4"
-131/texture = ExtResource( 157 )
+131/texture = ExtResource( 153 )
 131/tex_offset = Vector2( 0, 0 )
 131/modulate = Color( 1, 1, 1, 1 )
 131/region = Rect2( 0, 0, 256, 512 )
@@ -2019,7 +2019,7 @@
 131/shapes = [  ]
 131/z_index = 0
 132/name = "Male6Pickup5"
-132/texture = ExtResource( 150 )
+132/texture = ExtResource( 159 )
 132/tex_offset = Vector2( 0, 0 )
 132/modulate = Color( 1, 1, 1, 1 )
 132/region = Rect2( 0, 0, 256, 512 )
@@ -2033,7 +2033,7 @@
 132/shapes = [  ]
 132/z_index = 0
 133/name = "Male6Pickup6"
-133/texture = ExtResource( 17 )
+133/texture = ExtResource( 108 )
 133/tex_offset = Vector2( 0, 0 )
 133/modulate = Color( 1, 1, 1, 1 )
 133/region = Rect2( 0, 0, 256, 512 )
@@ -2047,7 +2047,7 @@
 133/shapes = [  ]
 133/z_index = 0
 134/name = "Male6Pickup7"
-134/texture = ExtResource( 74 )
+134/texture = ExtResource( 131 )
 134/tex_offset = Vector2( 0, 0 )
 134/modulate = Color( 1, 1, 1, 1 )
 134/region = Rect2( 0, 0, 256, 512 )
@@ -2061,7 +2061,7 @@
 134/shapes = [  ]
 134/z_index = 0
 135/name = "Male6Pickup8"
-135/texture = ExtResource( 75 )
+135/texture = ExtResource( 132 )
 135/tex_offset = Vector2( 0, 0 )
 135/modulate = Color( 1, 1, 1, 1 )
 135/region = Rect2( 0, 0, 256, 512 )
@@ -2075,7 +2075,7 @@
 135/shapes = [  ]
 135/z_index = 0
 136/name = "Male6Pickup9"
-136/texture = ExtResource( 76 )
+136/texture = ExtResource( 133 )
 136/tex_offset = Vector2( 0, 0 )
 136/modulate = Color( 1, 1, 1, 1 )
 136/region = Rect2( 0, 0, 256, 512 )
@@ -2089,7 +2089,7 @@
 136/shapes = [  ]
 136/z_index = 0
 137/name = "Male6Run0"
-137/texture = ExtResource( 77 )
+137/texture = ExtResource( 18 )
 137/tex_offset = Vector2( 0, 0 )
 137/modulate = Color( 1, 1, 1, 1 )
 137/region = Rect2( 0, 0, 256, 512 )
@@ -2103,7 +2103,7 @@
 137/shapes = [  ]
 137/z_index = 0
 138/name = "Male6Run1"
-138/texture = ExtResource( 78 )
+138/texture = ExtResource( 89 )
 138/tex_offset = Vector2( 0, 0 )
 138/modulate = Color( 1, 1, 1, 1 )
 138/region = Rect2( 0, 0, 256, 512 )
@@ -2117,7 +2117,7 @@
 138/shapes = [  ]
 138/z_index = 0
 139/name = "Male6Run2"
-139/texture = ExtResource( 79 )
+139/texture = ExtResource( 19 )
 139/tex_offset = Vector2( 0, 0 )
 139/modulate = Color( 1, 1, 1, 1 )
 139/region = Rect2( 0, 0, 256, 512 )
@@ -2131,7 +2131,7 @@
 139/shapes = [  ]
 139/z_index = 0
 140/name = "Male6Run3"
-140/texture = ExtResource( 80 )
+140/texture = ExtResource( 17 )
 140/tex_offset = Vector2( 0, 0 )
 140/modulate = Color( 1, 1, 1, 1 )
 140/region = Rect2( 0, 0, 256, 512 )
@@ -2145,7 +2145,7 @@
 140/shapes = [  ]
 140/z_index = 0
 141/name = "Male6Run4"
-141/texture = ExtResource( 81 )
+141/texture = ExtResource( 20 )
 141/tex_offset = Vector2( 0, 0 )
 141/modulate = Color( 1, 1, 1, 1 )
 141/region = Rect2( 0, 0, 256, 512 )
@@ -2159,7 +2159,7 @@
 141/shapes = [  ]
 141/z_index = 0
 142/name = "Male6Run5"
-142/texture = ExtResource( 82 )
+142/texture = ExtResource( 47 )
 142/tex_offset = Vector2( 0, 0 )
 142/modulate = Color( 1, 1, 1, 1 )
 142/region = Rect2( 0, 0, 256, 512 )
@@ -2173,7 +2173,7 @@
 142/shapes = [  ]
 142/z_index = 0
 143/name = "Male6Run6"
-143/texture = ExtResource( 83 )
+143/texture = ExtResource( 29 )
 143/tex_offset = Vector2( 0, 0 )
 143/modulate = Color( 1, 1, 1, 1 )
 143/region = Rect2( 0, 0, 256, 512 )
@@ -2187,7 +2187,7 @@
 143/shapes = [  ]
 143/z_index = 0
 144/name = "Male6Run7"
-144/texture = ExtResource( 18 )
+144/texture = ExtResource( 46 )
 144/tex_offset = Vector2( 0, 0 )
 144/modulate = Color( 1, 1, 1, 1 )
 144/region = Rect2( 0, 0, 256, 512 )
@@ -2201,7 +2201,7 @@
 144/shapes = [  ]
 144/z_index = 0
 145/name = "Male6Run8"
-145/texture = ExtResource( 84 )
+145/texture = ExtResource( 34 )
 145/tex_offset = Vector2( 0, 0 )
 145/modulate = Color( 1, 1, 1, 1 )
 145/region = Rect2( 0, 0, 256, 512 )
@@ -2215,7 +2215,7 @@
 145/shapes = [  ]
 145/z_index = 0
 146/name = "Male6Run9"
-146/texture = ExtResource( 85 )
+146/texture = ExtResource( 32 )
 146/tex_offset = Vector2( 0, 0 )
 146/modulate = Color( 1, 1, 1, 1 )
 146/region = Rect2( 0, 0, 256, 512 )
@@ -2229,7 +2229,7 @@
 146/shapes = [  ]
 146/z_index = 0
 147/name = "Male7Idle0"
-147/texture = ExtResource( 86 )
+147/texture = ExtResource( 80 )
 147/tex_offset = Vector2( 0, 0 )
 147/modulate = Color( 1, 1, 1, 1 )
 147/region = Rect2( 0, 0, 256, 512 )
@@ -2243,7 +2243,7 @@
 147/shapes = [  ]
 147/z_index = 0
 148/name = "Male7Pickup0"
-148/texture = ExtResource( 87 )
+148/texture = ExtResource( 115 )
 148/tex_offset = Vector2( 0, 0 )
 148/modulate = Color( 1, 1, 1, 1 )
 148/region = Rect2( 0, 0, 256, 512 )
@@ -2257,7 +2257,7 @@
 148/shapes = [  ]
 148/z_index = 0
 149/name = "Male7Pickup1"
-149/texture = ExtResource( 88 )
+149/texture = ExtResource( 136 )
 149/tex_offset = Vector2( 0, 0 )
 149/modulate = Color( 1, 1, 1, 1 )
 149/region = Rect2( 0, 0, 256, 512 )
@@ -2271,7 +2271,7 @@
 149/shapes = [  ]
 149/z_index = 0
 150/name = "Male7Pickup2"
-150/texture = ExtResource( 89 )
+150/texture = ExtResource( 134 )
 150/tex_offset = Vector2( 0, 0 )
 150/modulate = Color( 1, 1, 1, 1 )
 150/region = Rect2( 0, 0, 256, 512 )
@@ -2285,7 +2285,7 @@
 150/shapes = [  ]
 150/z_index = 0
 151/name = "Male7Pickup3"
-151/texture = ExtResource( 90 )
+151/texture = ExtResource( 137 )
 151/tex_offset = Vector2( 0, 0 )
 151/modulate = Color( 1, 1, 1, 1 )
 151/region = Rect2( 0, 0, 256, 512 )
@@ -2299,7 +2299,7 @@
 151/shapes = [  ]
 151/z_index = 0
 152/name = "Male7Pickup4"
-152/texture = ExtResource( 91 )
+152/texture = ExtResource( 116 )
 152/tex_offset = Vector2( 0, 0 )
 152/modulate = Color( 1, 1, 1, 1 )
 152/region = Rect2( 0, 0, 256, 512 )
@@ -2313,7 +2313,7 @@
 152/shapes = [  ]
 152/z_index = 0
 153/name = "Male7Pickup5"
-153/texture = ExtResource( 92 )
+153/texture = ExtResource( 118 )
 153/tex_offset = Vector2( 0, 0 )
 153/modulate = Color( 1, 1, 1, 1 )
 153/region = Rect2( 0, 0, 256, 512 )
@@ -2327,7 +2327,7 @@
 153/shapes = [  ]
 153/z_index = 0
 154/name = "Male7Pickup6"
-154/texture = ExtResource( 93 )
+154/texture = ExtResource( 140 )
 154/tex_offset = Vector2( 0, 0 )
 154/modulate = Color( 1, 1, 1, 1 )
 154/region = Rect2( 0, 0, 256, 512 )
@@ -2341,7 +2341,7 @@
 154/shapes = [  ]
 154/z_index = 0
 155/name = "Male7Pickup7"
-155/texture = ExtResource( 94 )
+155/texture = ExtResource( 106 )
 155/tex_offset = Vector2( 0, 0 )
 155/modulate = Color( 1, 1, 1, 1 )
 155/region = Rect2( 0, 0, 256, 512 )
@@ -2355,7 +2355,7 @@
 155/shapes = [  ]
 155/z_index = 0
 156/name = "Male7Pickup8"
-156/texture = ExtResource( 95 )
+156/texture = ExtResource( 144 )
 156/tex_offset = Vector2( 0, 0 )
 156/modulate = Color( 1, 1, 1, 1 )
 156/region = Rect2( 0, 0, 256, 512 )
@@ -2369,7 +2369,7 @@
 156/shapes = [  ]
 156/z_index = 0
 157/name = "Male7Pickup9"
-157/texture = ExtResource( 96 )
+157/texture = ExtResource( 146 )
 157/tex_offset = Vector2( 0, 0 )
 157/modulate = Color( 1, 1, 1, 1 )
 157/region = Rect2( 0, 0, 256, 512 )
@@ -2383,7 +2383,7 @@
 157/shapes = [  ]
 157/z_index = 0
 158/name = "Male7Run0"
-158/texture = ExtResource( 97 )
+158/texture = ExtResource( 84 )
 158/tex_offset = Vector2( 0, 0 )
 158/modulate = Color( 1, 1, 1, 1 )
 158/region = Rect2( 0, 0, 256, 512 )
@@ -2397,7 +2397,7 @@
 158/shapes = [  ]
 158/z_index = 0
 159/name = "Male7Run1"
-159/texture = ExtResource( 98 )
+159/texture = ExtResource( 86 )
 159/tex_offset = Vector2( 0, 0 )
 159/modulate = Color( 1, 1, 1, 1 )
 159/region = Rect2( 0, 0, 256, 512 )
@@ -2411,7 +2411,7 @@
 159/shapes = [  ]
 159/z_index = 0
 160/name = "Male7Run2"
-160/texture = ExtResource( 99 )
+160/texture = ExtResource( 70 )
 160/tex_offset = Vector2( 0, 0 )
 160/modulate = Color( 1, 1, 1, 1 )
 160/region = Rect2( 0, 0, 256, 512 )
@@ -2425,7 +2425,7 @@
 160/shapes = [  ]
 160/z_index = 0
 161/name = "Male7Run3"
-161/texture = ExtResource( 22 )
+161/texture = ExtResource( 82 )
 161/tex_offset = Vector2( 0, 0 )
 161/modulate = Color( 1, 1, 1, 1 )
 161/region = Rect2( 0, 0, 256, 512 )
@@ -2439,7 +2439,7 @@
 161/shapes = [  ]
 161/z_index = 0
 162/name = "Male7Run4"
-162/texture = ExtResource( 104 )
+162/texture = ExtResource( 40 )
 162/tex_offset = Vector2( 0, 0 )
 162/modulate = Color( 1, 1, 1, 1 )
 162/region = Rect2( 0, 0, 256, 512 )
@@ -2453,7 +2453,7 @@
 162/shapes = [  ]
 162/z_index = 0
 163/name = "Male7Run5"
-163/texture = ExtResource( 105 )
+163/texture = ExtResource( 30 )
 163/tex_offset = Vector2( 0, 0 )
 163/modulate = Color( 1, 1, 1, 1 )
 163/region = Rect2( 0, 0, 256, 512 )
@@ -2467,7 +2467,7 @@
 163/shapes = [  ]
 163/z_index = 0
 164/name = "Male7Run6"
-164/texture = ExtResource( 106 )
+164/texture = ExtResource( 31 )
 164/tex_offset = Vector2( 0, 0 )
 164/modulate = Color( 1, 1, 1, 1 )
 164/region = Rect2( 0, 0, 256, 512 )
@@ -2481,7 +2481,7 @@
 164/shapes = [  ]
 164/z_index = 0
 165/name = "Male7Run7"
-165/texture = ExtResource( 107 )
+165/texture = ExtResource( 10 )
 165/tex_offset = Vector2( 0, 0 )
 165/modulate = Color( 1, 1, 1, 1 )
 165/region = Rect2( 0, 0, 256, 512 )
@@ -2495,7 +2495,7 @@
 165/shapes = [  ]
 165/z_index = 0
 166/name = "Male7Run8"
-166/texture = ExtResource( 108 )
+166/texture = ExtResource( 49 )
 166/tex_offset = Vector2( 0, 0 )
 166/modulate = Color( 1, 1, 1, 1 )
 166/region = Rect2( 0, 0, 256, 512 )
@@ -2509,7 +2509,7 @@
 166/shapes = [  ]
 166/z_index = 0
 167/name = "Male7Run9"
-167/texture = ExtResource( 109 )
+167/texture = ExtResource( 56 )
 167/tex_offset = Vector2( 0, 0 )
 167/modulate = Color( 1, 1, 1, 1 )
 167/region = Rect2( 0, 0, 256, 512 )

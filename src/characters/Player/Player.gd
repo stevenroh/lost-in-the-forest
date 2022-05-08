@@ -5,6 +5,10 @@ var motion = Vector2()
 
 onready var animated_sprite = $AnimatedSprite
 
+var current_animation = "idle_"
+var current_orientation = "s"
+
+
 func cartesian_to_isometric(cartesian):
 	var screen_pos = Vector2()
 	screen_pos.x = cartesian.x - cartesian.y
@@ -13,22 +17,36 @@ func cartesian_to_isometric(cartesian):
 
 func _physics_process(delta):
 	var direction = Vector2()
+	current_animation = "idle_"
+	var orientation = ""
 
 	if Input.is_action_pressed("up"):
-		animated_sprite.animation = "run_ne"
+		current_animation = "run_"
+		orientation = orientation + "n"
 		direction += Vector2(0, -1)
 	if Input.is_action_pressed("down"):
-		animated_sprite.animation = "run_sw"
+		current_animation = "run_"
+		if orientation != "n":
+			orientation = orientation + "s"
 		direction += Vector2(0, 1)
 
 	if Input.is_action_pressed("left"):
-		animated_sprite.animation = "run_nw"
+		current_animation = "run_"
+		orientation = orientation + "w"
 		direction += Vector2(-1, 0)
 	if Input.is_action_pressed("right"):
-		animated_sprite.animation = "run_se"
+		current_animation = "run_"
+		if orientation != "w":
+			orientation = orientation + "e"
 		direction += Vector2(1, 0)
 
+	if orientation != "":
+		current_orientation = orientation
+		
+	animated_sprite.animation = current_animation + current_orientation
 	motion = direction.normalized() * speed
-	motion = cartesian_to_isometric(motion)
+	
+	# TODO - check which movement to keep but without modification seems better to me!
+	# motion = cartesian_to_isometric(motion)
 	
 	move_and_slide(motion)

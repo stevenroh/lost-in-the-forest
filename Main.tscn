@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://isometric-roads.tres" type="TileSet" id=1]
-[ext_resource path="res://survival-kit.tres" type="TileSet" id=2]
-[ext_resource path="res://Player.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Tree.tscn" type="PackedScene" id=4]
+[ext_resource path="res://tilemaps/isometric-roads.tres" type="TileSet" id=1]
+[ext_resource path="res://tilemaps/survival-kit.tres" type="TileSet" id=2]
+[ext_resource path="res://src/characters/Player/Player.tscn" type="PackedScene" id=3]
+[ext_resource path="res://src/objects/Tree.tscn" type="PackedScene" id=4]
 
 [node name="Main" type="Node2D"]
 
