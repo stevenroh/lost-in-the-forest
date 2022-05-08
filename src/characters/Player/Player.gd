@@ -52,3 +52,10 @@ func _physics_process(delta):
 	# motion = cartesian_to_isometric(motion)
 	
 	move_and_slide(motion)
+
+func _input(event):
+	if event.is_action_pressed("action"):
+		if $LootZone.items_in_range.size() > 0:
+			var loot_item = $LootZone.items_in_range.values()[0]
+			loot_item.loot(self)
+			$LootZone.items_in_range.erase(loot_item)

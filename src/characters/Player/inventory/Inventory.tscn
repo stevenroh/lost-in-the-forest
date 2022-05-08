@@ -29,7 +29,7 @@ custom_constants/vseparation = 4
 custom_constants/hseparation = 4
 columns = 5
 
-[node name="Slot" type="Panel" parent="GridContainer"]
+[node name="Slot1" type="Panel" parent="GridContainer"]
 margin_right = 64.0
 margin_bottom = 64.0
 rect_min_size = Vector2( 64, 64 )
