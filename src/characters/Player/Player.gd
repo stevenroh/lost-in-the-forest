@@ -41,6 +41,8 @@ func _physics_process(delta):
 		direction += Vector2(1, 0)
 
 	if orientation != "":
+		if orientation.length() > 2:
+			orientation = orientation.substr(0,2)
 		current_orientation = orientation
 		
 	animated_sprite.animation = current_animation + current_orientation
