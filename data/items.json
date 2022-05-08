@@ -1,0 +1,26 @@
+{
+    "woodstick": {
+        "category": "resource",
+        "stackSize": 99,
+        "description": "Simple wood stick obtained by chopping a tree."
+
+    },
+    "wood": {
+        "category": "resource",
+        "stackSize": 99,
+        "description": "Simple wood obtained by chopping a tree."
+
+    }, 
+    "axe": {
+        "category": "tool",
+        "stackSize": 1,
+        "duration": 100,
+        "description": "An axe used to cut down trees."
+    },
+    "pickaxe": {
+        "category": "tool",
+        "stackSize": 1,
+        "duration": 100,
+        "description": "A pickaxe to mine rock."
+    }
+}

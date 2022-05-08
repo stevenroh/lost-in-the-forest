@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cursorSword_bronze.png-3f5034a37b1fde59592db323b631403d.stex"
+path="res://.import/pickaxe.png-5dce0c111b1b8e0db497e772d3897f1b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Items/cursorSword_bronze.png"
-dest_files=[ "res://.import/cursorSword_bronze.png-3f5034a37b1fde59592db323b631403d.stex" ]
+source_file="res://assets/Items/pickaxe.png"
+dest_files=[ "res://.import/pickaxe.png-5dce0c111b1b8e0db497e772d3897f1b.stex" ]
 
 [params]
 

@@ -14,6 +14,10 @@ config/name="Lost in the forest"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+ItemDataReader="*res://itemDataReader.gd"
+
 [input]
 
 left={
