@@ -17,7 +17,12 @@ func cartesian_to_isometric(cartesian):
 
 func _physics_process(delta):
 	var direction = Vector2()
-	current_animation = "idle_"
+	
+	if Input.is_action_pressed("fire"):
+		current_animation = "axe_"
+	else:
+		current_animation = "idle_"
+
 	var orientation = ""
 
 	if Input.is_action_pressed("up"):

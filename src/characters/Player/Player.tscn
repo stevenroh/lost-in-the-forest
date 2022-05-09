@@ -244,8 +244,7 @@ script = ExtResource( 89 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( -2, -186 )
 frames = SubResource( 2 )
-animation = "axe_sw"
-frame = 1
+animation = "idle_s"
 playing = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
