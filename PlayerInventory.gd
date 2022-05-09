@@ -14,7 +14,8 @@ var inventory = {
 }
 
 var actionBar = {
-
+	0:["wood", 98],
+	1:["wood", 98]
 }
 
 var current_item_slot = 0
@@ -60,5 +61,8 @@ func active_item_scroll(direction):
 	if direction == "up":
 		current_item_slot = (current_item_slot + 1) % TOTAL_ACTIONBAR_SLOTS
 	elif direction == "down":
-		current_item_slot = (current_item_slot - 1) % TOTAL_ACTIONBAR_SLOTS
+		if current_item_slot == 0:
+			current_item_slot = TOTAL_ACTIONBAR_SLOTS - 1
+		else: 
+			current_item_slot -=1
 	emit_signal("active_item_updated")
