@@ -1,4 +1,4 @@
-[gd_scene load_steps=92 format=2]
+[gd_scene load_steps=116 format=2]
 
 [ext_resource path="res://assets/player/Male_4_Run1.png" type="Texture" id=1]
 [ext_resource path="res://assets/player/Male_0_Run6.png" type="Texture" id=2]
@@ -90,9 +90,63 @@
 [ext_resource path="res://assets/player/Male_6_Idle0.png" type="Texture" id=88]
 [ext_resource path="res://src/characters/Player/Player.gd" type="Script" id=89]
 [ext_resource path="res://src/characters/Player/lootZone.gd" type="Script" id=90]
+[ext_resource path="res://assets/player/Male_0_Axe0.png" type="Texture" id=91]
+[ext_resource path="res://assets/player/Male_1_Axe0.png" type="Texture" id=92]
+[ext_resource path="res://assets/player/Male_1_Axe1.png" type="Texture" id=93]
+[ext_resource path="res://assets/player/Male_1_Axe2.png" type="Texture" id=94]
+[ext_resource path="res://assets/player/Male_0_Axe2.png" type="Texture" id=95]
+[ext_resource path="res://assets/player/Male_0_Axe1.png" type="Texture" id=96]
+[ext_resource path="res://assets/player/Male_2_Axe1.png" type="Texture" id=97]
+[ext_resource path="res://assets/player/Male_2_Axe2.png" type="Texture" id=98]
+[ext_resource path="res://assets/player/Male_2_Axe0.png" type="Texture" id=99]
+[ext_resource path="res://assets/player/Male_3_Axe0.png" type="Texture" id=100]
+[ext_resource path="res://assets/player/Male_3_Axe1.png" type="Texture" id=101]
+[ext_resource path="res://assets/player/Male_3_Axe2.png" type="Texture" id=102]
+[ext_resource path="res://assets/player/Male_5_Axe0.png" type="Texture" id=103]
+[ext_resource path="res://assets/player/Male_5_Axe2.png" type="Texture" id=104]
+[ext_resource path="res://assets/player/Male_5_Axe1.png" type="Texture" id=105]
+[ext_resource path="res://assets/player/Male_7_Axe2.png" type="Texture" id=106]
+[ext_resource path="res://assets/player/Male_6_Axe2.png" type="Texture" id=107]
+[ext_resource path="res://assets/player/Male_4_Axe2.png" type="Texture" id=108]
+[ext_resource path="res://assets/player/Male_4_Axe0.png" type="Texture" id=109]
+[ext_resource path="res://assets/player/Male_4_Axe1.png" type="Texture" id=110]
+[ext_resource path="res://assets/player/Male_7_Axe1.png" type="Texture" id=111]
+[ext_resource path="res://assets/player/Male_7_Axe0.png" type="Texture" id=112]
+[ext_resource path="res://assets/player/Male_6_Axe0.png" type="Texture" id=113]
+[ext_resource path="res://assets/player/Male_6_Axe1.png" type="Texture" id=114]
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
+"frames": [ ExtResource( 92 ), ExtResource( 93 ), ExtResource( 94 ) ],
+"loop": true,
+"name": "axe_e",
+"speed": 7.0
+}, {
+"frames": [ ExtResource( 91 ), ExtResource( 96 ), ExtResource( 95 ) ],
+"loop": true,
+"name": "axe_ne",
+"speed": 7.0
+}, {
+"frames": [ ExtResource( 112 ), ExtResource( 111 ), ExtResource( 106 ) ],
+"loop": true,
+"name": "axe_n",
+"speed": 7.0
+}, {
+"frames": [ ExtResource( 109 ), ExtResource( 110 ), ExtResource( 108 ) ],
+"loop": true,
+"name": "axe_sw",
+"speed": 7.0
+}, {
+"frames": [ ExtResource( 100 ), ExtResource( 101 ), ExtResource( 102 ) ],
+"loop": true,
+"name": "axe_s",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 103 ), ExtResource( 105 ), ExtResource( 104 ) ],
+"loop": true,
+"name": "axe_w",
+"speed": 7.0
+}, {
 "frames": [ ExtResource( 43 ), ExtResource( 68 ), ExtResource( 40 ), ExtResource( 41 ), ExtResource( 42 ), ExtResource( 32 ), ExtResource( 33 ), ExtResource( 15 ), ExtResource( 34 ), ExtResource( 35 ) ],
 "loop": true,
 "name": "run_n",
@@ -133,14 +187,14 @@ animations = [ {
 "name": "idle_sw",
 "speed": 13.0
 }, {
-"frames": [ ExtResource( 84 ) ],
-"loop": true,
-"name": "idle_s",
-"speed": 13.0
-}, {
 "frames": [ ExtResource( 86 ) ],
 "loop": true,
 "name": "idle_w",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 84 ) ],
+"loop": true,
+"name": "idle_s",
 "speed": 13.0
 }, {
 "frames": [ ExtResource( 11 ) ],
@@ -153,14 +207,14 @@ animations = [ {
 "name": "run_w",
 "speed": 13.0
 }, {
-"frames": [ ExtResource( 64 ), ExtResource( 1 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 79 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 80 ), ExtResource( 58 ), ExtResource( 81 ) ],
-"loop": true,
-"name": "run_sw",
-"speed": 13.0
-}, {
 "frames": [ ExtResource( 88 ) ],
 "loop": true,
 "name": "idle_nw",
+"speed": 13.0
+}, {
+"frames": [ ExtResource( 64 ), ExtResource( 1 ), ExtResource( 49 ), ExtResource( 50 ), ExtResource( 79 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 80 ), ExtResource( 58 ), ExtResource( 81 ) ],
+"loop": true,
+"name": "run_sw",
 "speed": 13.0
 }, {
 "frames": [ ExtResource( 83 ) ],
@@ -172,6 +226,16 @@ animations = [ {
 "loop": true,
 "name": "run_nw",
 "speed": 13.0
+}, {
+"frames": [ ExtResource( 113 ), ExtResource( 114 ), ExtResource( 107 ) ],
+"loop": true,
+"name": "axe_nw",
+"speed": 7.0
+}, {
+"frames": [ ExtResource( 99 ), ExtResource( 97 ), ExtResource( 98 ) ],
+"loop": true,
+"name": "axe_se",
+"speed": 7.0
 } ]
 
 [node name="Player" type="KinematicBody2D"]
@@ -180,7 +244,8 @@ script = ExtResource( 89 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( -2, -186 )
 frames = SubResource( 2 )
-animation = "idle_s"
+animation = "axe_sw"
+frame = 1
 playing = true
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
