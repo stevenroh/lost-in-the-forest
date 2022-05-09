@@ -27,12 +27,11 @@ animations = [ {
 position = Vector2( 0, -35.5383 )
 scale = Vector2( 4.65, 3.64617 )
 frames = SubResource( 1 )
-frame = 10
+frame = 4
 playing = true
 
 [node name="Light2D" type="Light2D" parent="."]
-visible = false
 position = Vector2( 0, 5.08432 )
 scale = Vector2( 1, 1 )
 texture = ExtResource( 14 )
-texture_scale = 0.02
+texture_scale = 0.04
