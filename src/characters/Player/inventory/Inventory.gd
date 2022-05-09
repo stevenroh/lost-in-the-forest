@@ -1,6 +1,8 @@
 extends Node2D
 
 const SlotClass = preload("res://src/characters/Player/inventory/Slot.gd")
+const ItemClass = preload("res://src/characters/Player/inventory/Item.tscn")
+
 onready var inventory_slots = $GridContainer
 var holding_item = null
 
@@ -40,15 +42,18 @@ func on_empty_slot_clicked(slot: SlotClass):
 	PlayerInventory.add_item_to_empty_slot(holding_item, slot)
 	slot.put_in_slot(holding_item)
 	holding_item = null
+	print(PlayerInventory.inventory)
 	
 func on_different_item_slot_clicked(event: InputEvent, slot:SlotClass):
-	PlayerInventory.remove_item(slot)
-	PlayerInventory.add_item(holding_item, slot)
 	var temp_item = slot.item
 	slot.pick_from_slot()
-	temp_item.global_position = event.global_position
 	slot.put_in_slot(holding_item)
+	PlayerInventory.remove_item(slot)
+	PlayerInventory.add_item(holding_item.item_name, holding_item.item_quantity)
+	
+
 	holding_item = temp_item
+	holding_item.global_position = event.global_position
 	
 func on_same_item_slot_clicked(slot:SlotClass):
 	

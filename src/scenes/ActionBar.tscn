@@ -14,78 +14,78 @@ script = ExtResource( 3 )
 
 [node name="TextureRect" type="TextureRect" parent="."]
 margin_left = -157.0
-margin_top = -75.0
-margin_right = 404.0
+margin_top = -79.0
+margin_right = 437.0
 texture = ExtResource( 1 )
 stretch_mode = 1
 
 [node name="ActionBarSlots" type="GridContainer" parent="."]
 margin_left = -146.0
 margin_top = -70.0
-margin_right = 397.0
-margin_bottom = -6.0
+margin_right = 426.0
+margin_bottom = -2.0
 rect_min_size = Vector2( 25, 25 )
 columns = 8
 
 [node name="Slot1" type="Panel" parent="ActionBarSlots"]
-margin_right = 64.0
-margin_bottom = 64.0
-rect_min_size = Vector2( 64, 64 )
+margin_right = 68.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 68, 68 )
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Slot2" type="Panel" parent="ActionBarSlots"]
-margin_left = 68.0
-margin_right = 132.0
-margin_bottom = 64.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 72.0
+margin_right = 140.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 68, 68 )
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Slot3" type="Panel" parent="ActionBarSlots"]
-margin_left = 136.0
-margin_right = 200.0
-margin_bottom = 64.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 144.0
+margin_right = 212.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 68, 68 )
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Slot4" type="Panel" parent="ActionBarSlots"]
-margin_left = 204.0
-margin_right = 268.0
-margin_bottom = 64.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 216.0
+margin_right = 284.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 68, 68 )
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Slot5" type="Panel" parent="ActionBarSlots"]
-margin_left = 272.0
-margin_right = 336.0
-margin_bottom = 64.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 288.0
+margin_right = 356.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 68, 68 )
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Slot6" type="Panel" parent="ActionBarSlots"]
-margin_left = 340.0
-margin_right = 404.0
-margin_bottom = 64.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 360.0
+margin_right = 428.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 68, 68 )
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Slot7" type="Panel" parent="ActionBarSlots"]
-margin_left = 408.0
-margin_right = 472.0
-margin_bottom = 64.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 432.0
+margin_right = 500.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 68, 68 )
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 2 )
 
 [node name="Slot8" type="Panel" parent="ActionBarSlots"]
-margin_left = 476.0
-margin_right = 540.0
-margin_bottom = 64.0
-rect_min_size = Vector2( 64, 64 )
+margin_left = 504.0
+margin_right = 572.0
+margin_bottom = 68.0
+rect_min_size = Vector2( 68, 68 )
 custom_styles/panel = SubResource( 1 )
 script = ExtResource( 2 )
