@@ -1,9 +1,12 @@
 extends Node
 
-signal toggle_day_night
+signal toggle_day
+signal toggle_night
 
 export(bool) var enabled = false
+export(int) var day_duration = 24
 
+var day = true
 var counter = 0
 
 func _on_Timer_timeout():
@@ -13,5 +16,11 @@ func _on_Timer_timeout():
 	counter += 1
 	print("Count: " + str(counter))
 
-	if counter % 10:
-		emit_signal("toggle_day_night")
+	if counter == day_duration:
+		counter = 0
+		if day:
+			emit_signal("toggle_night")
+			day = false
+		else:
+			emit_signal("toggle_day")
+			day = true

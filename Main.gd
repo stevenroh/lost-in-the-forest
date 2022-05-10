@@ -4,6 +4,11 @@ extends Node2D
 func _ready():
 	pass # Replace with function body.
 
-func _on_TimeManager_toggle_day_night():
-	$NightMode.visible = !$NightMode.visible
+func _on_TimeManager_toggle_day():
+	print("Change to day")
+	$AnimationPlayer.play_backwards("DayToNight")
+
+func _on_TimeManager_toggle_night():
+	print("Change to night")
+	$AnimationPlayer.play("DayToNight")
 
