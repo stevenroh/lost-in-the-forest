@@ -28,7 +28,7 @@ tile_data = PoolIntArray( -262133, 48, 0, -131075, 42, 0, -131074, 42, 0, -13107
 
 [node name="Fire" parent="YSort" instance=ExtResource( 8 )]
 position = Vector2( -102, 428 )
-frame = 1
+frame = 3
 
 [node name="Player" parent="YSort" instance=ExtResource( 3 )]
 position = Vector2( 437, 488 )
@@ -58,6 +58,7 @@ color = Color( 0.00784314, 0.239216, 0.615686, 1 )
 script = ExtResource( 5 )
 
 [node name="Inventory" parent="UserInterface" instance=ExtResource( 6 )]
+visible = false
 position = Vector2( 1084, 355 )
 
 [node name="ActionBar" parent="UserInterface" instance=ExtResource( 7 )]

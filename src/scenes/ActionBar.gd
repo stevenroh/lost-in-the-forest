@@ -1,5 +1,7 @@
 extends Node2D
 
+const SlotClass = preload("res://src/characters/Player/inventory/Slot.gd")
+
 onready var actionBar = $ActionBarSlots
 onready var slots = actionBar.get_children()
 
@@ -7,8 +9,9 @@ onready var slots = actionBar.get_children()
 func _ready():
 	for i in range(slots.size()):
 		#slots[i].connect("gui_input", self, "slot_gui_input", [slots[i]])
-
+		PlayerInventory.connect("active_item_updated", slots[i], "refresh_style")
 		slots[i].slot_index = i
+		slots[i].slot_type = SlotClass.SlotType.ACTIONBAR
 	initialize_actionBar()
 
 

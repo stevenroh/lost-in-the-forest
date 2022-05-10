@@ -14,7 +14,8 @@ var inventory = {
 }
 
 var actionBar = {
-	0:["axe", 1],
+	0:["wood", 98],
+	1:["wood", 98]
 }
 
 var current_item_slot = 0
@@ -29,7 +30,7 @@ func add_item_quantity(slot: SlotClass, quantity: int):
 func add_item(name, quantity):
 	for item in inventory:
 		if inventory[item][0] == name:
-			var stack_size = ItemDataReader.item_data[name]["stackSize"]
+			var stack_size = int(ItemDataReader.item_data[name]["stackSize"])
 			var can_be_added = stack_size - inventory[item][1]
 			if can_be_added >= quantity:
 				inventory[item][1] += quantity
@@ -39,8 +40,9 @@ func add_item(name, quantity):
 				inventory[item][1] += can_be_added
 				update_slot_visual(item, inventory[item][0], inventory[item][1])
 				quantity -= can_be_added
+
 	for i in range(TOTAL_INVENTORY_SLOTS):
-		if !inventory.has(i):
+		if inventory.has(i) == false:
 			inventory[i] = [name, quantity]
 			update_slot_visual(i, inventory[i][0], inventory[i][1])
 			return
@@ -59,5 +61,8 @@ func active_item_scroll(direction):
 	if direction == "up":
 		current_item_slot = (current_item_slot + 1) % TOTAL_ACTIONBAR_SLOTS
 	elif direction == "down":
-		current_item_slot = (current_item_slot - 1) % TOTAL_ACTIONBAR_SLOTS
+		if current_item_slot == 0:
+			current_item_slot = TOTAL_ACTIONBAR_SLOTS - 1
+		else: 
+			current_item_slot -=1
 	emit_signal("active_item_updated")
