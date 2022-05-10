@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://tilemaps/isometric-roads.tres" type="TileSet" id=1]
 [ext_resource path="res://tilemaps/survival-kit.tres" type="TileSet" id=2]
@@ -8,8 +8,11 @@
 [ext_resource path="res://src/characters/Player/inventory/Inventory.tscn" type="PackedScene" id=6]
 [ext_resource path="res://src/scenes/ActionBar.tscn" type="PackedScene" id=7]
 [ext_resource path="res://src/scenes/Fire.tscn" type="PackedScene" id=8]
+[ext_resource path="res://src/objects/TimeManager.tscn" type="PackedScene" id=9]
+[ext_resource path="res://Main.gd" type="Script" id=10]
 
 [node name="Main" type="Node2D"]
+script = ExtResource( 10 )
 
 [node name="Ground" type="TileMap" parent="."]
 mode = 1
@@ -25,6 +28,7 @@ tile_data = PoolIntArray( -262133, 48, 0, -131075, 42, 0, -131074, 42, 0, -13107
 
 [node name="Fire" parent="YSort" instance=ExtResource( 8 )]
 position = Vector2( -102, 428 )
+frame = 1
 
 [node name="Player" parent="YSort" instance=ExtResource( 3 )]
 position = Vector2( 437, 488 )
@@ -45,7 +49,10 @@ collision_layer = 2
 collision_mask = 4
 
 [node name="NightMode" type="CanvasModulate" parent="."]
-color = Color( 0.00784314, 0.247059, 0.615686, 1 )
+visible = false
+color = Color( 0.00784314, 0.239216, 0.615686, 1 )
+
+[node name="TimeManager" parent="." instance=ExtResource( 9 )]
 
 [node name="UserInterface" type="CanvasLayer" parent="."]
 script = ExtResource( 5 )
@@ -55,3 +62,5 @@ position = Vector2( 1084, 355 )
 
 [node name="ActionBar" parent="UserInterface" instance=ExtResource( 7 )]
 position = Vector2( 805, 1024 )
+
+[connection signal="toggle_day_night" from="TimeManager" to="." method="_on_TimeManager_toggle_day_night"]
